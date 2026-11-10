@@ -93,6 +93,7 @@ input[type=text],input[type=search],select{background:var(--paper);border:1px so
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tag{font-size:.8rem;font-weight:600;border:1px solid var(--line);border-radius:6px;padding:2px 7px}
 .tag.t{background:var(--pop);color:var(--on-pop);border-color:transparent}
+.tag.p{background:var(--accent);color:var(--on-accent);border-color:transparent}
 .tag.w{background:var(--warn-bg);color:var(--warn);border-color:transparent}
 dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:.93rem}
 dt{color:var(--muted);font-weight:600}
@@ -118,7 +119,7 @@ footer{color:var(--muted);font-size:.85rem;max-width:72ch}
 <div class="wrap">
   <header>
     <h1>Free <span>Paws</span></h1>
-    <p class="lede">Real cats and dogs near you whose people need a free walk, a visit or a cuddle. Refreshed automatically every day; every entry links to the group that posted it.</p>
+    <p class="lede">Real cats and dogs near you whose people need a walk, a visit or a cuddle. Mostly free, with paid and pay-to-visit options marked. Refreshed automatically every day; every entry links to the group that posted it.</p>
   </header>
 
   <section class="where" aria-label="Your location">
@@ -208,10 +209,11 @@ var GROUPS=[
  {key:"kind",label:"Who needs help",opts:[["neighbor","A neighbor's own pet"],["rescue","Rescue pet needing a foster"],["shelter","Shelter animals"],["cafe","Cat café"],["platform","Matching platform"]]},
  {key:"commit",label:"Commitment",opts:[["oneoff","One-off"],["weekly","Weekly shift"],["monthly","Monthly minimum"],["flexible","Flexible"]]},
  {key:"daypart",label:"Time of day",opts:[["morning","Morning"],["midday","Midday"],["evening","Evening"]]},
- {key:"days",label:"Days",opts:[["weekday","Weekdays"],["weekend","Weekends"]]}
+ {key:"days",label:"Days",opts:[["weekday","Weekdays"],["weekend","Weekends"]]},
+ {key:"cost",label:"Money",opts:[["free","Free"],["fee","You pay a fee"],["paid","You get paid"]]}
 ];
-var TOGGLES=[["freeOnly","Free to take part only"],["hidePaused","Hide paused programs"],["namedOnly","Only a specific, named pet"],["noOrientation","No orientation or application first"],["savedOnly","Only ones I saved"]];
-var QUICK=[["species","dog","Dogs"],["species","cat","Cats"],["size","small","Small"],["temper","gentle","Gentle"],["activity","walk","Walks"],["activity","cuddle","Cuddles"],["commit","oneoff","One-off"]];
+var TOGGLES=[["hidePaused","Hide paused programs"],["namedOnly","Only a specific, named pet"],["noOrientation","No orientation or application first"],["savedOnly","Only ones I saved"]];
+var QUICK=[["species","dog","Dogs"],["species","cat","Cats"],["size","small","Small"],["temper","gentle","Gentle"],["activity","walk","Walks"],["activity","cuddle","Cuddles"],["commit","oneoff","One-off"],["cost","free","Free only"]];
 var CATS=[
  {id:"walk-neighbor",t:"Walk a neighbor's dog",d:"Named dogs whose owners can't manage the walks",f:function(x){return x.kind==="neighbor"&&has(x.species,"dog");}},
  {id:"visit-cat",t:"Look in on a neighbor's cat",d:"Feeding and litter visits in someone's home",f:function(x){return x.kind==="neighbor"&&has(x.species,"cat");}},
@@ -221,12 +223,14 @@ var CATS=[
  {id:"small-gentle",t:"Small or gentle",d:"Lap-sized dogs, and pets described as gentle or calm",f:function(x){return has(x.size,"small")||has(x.temper,"gentle")||has(x.temper,"calm");}},
  {id:"no-strings",t:"No orientation needed",d:"Sign up and go, nothing to sit through first",f:function(x){return !needsPrep(x);}},
  {id:"foster",t:"Short-term fostering",d:"A pet at your place for days, not years",f:function(x){return has(x.activity,"foster");}},
+ {id:"pay-to-visit",t:"Pay to visit",d:"Cat cafés and memberships with a fee",f:function(x){return x.cost==="fee";}},
+ {id:"get-paid",t:"Get paid to walk or sit",d:"Apps where owners pay you",f:function(x){return x.cost==="paid";}},
  {id:"platforms",t:"Matching platforms",d:"Sites that pair you with owners",f:function(x){return x.kind==="platform";}}
 ];
 var KIND={neighbor:"Neighbor's pet",rescue:"Rescue pet, needs a foster",shelter:"Shelter",cafe:"Cat café",platform:"Platform"};
 var LABEL={};GROUPS.forEach(function(g){g.opts.forEach(function(o){LABEL[g.key+":"+o[0]]=o[1];});});
 
-var S={items:[],loaded:false,slow:false,err:"",meta:null,view:"search",q:"",f:{},t:{freeOnly:true,hidePaused:true,namedOnly:false,noOrientation:false,savedOnly:false},cat:"",sort:"near",place:"",origin:null,radius:999,saved:{}};
+var S={items:[],loaded:false,slow:false,err:"",meta:null,view:"search",q:"",f:{},t:{hidePaused:true,namedOnly:false,noOrientation:false,savedOnly:false},cat:"",sort:"near",place:"",origin:null,radius:999,saved:{}};
 function $(id){return document.getElementById(id);}
 function has(a,v){return Array.isArray(a)&&a.indexOf(v)>=0;}
 function arr(a){return Array.isArray(a)?a:[];}
@@ -258,7 +262,6 @@ function passes(x,skipCat){
   var words=S.q.toLowerCase().split(/\s+/).filter(Boolean),h=hay(x),i;
   for(i=0;i<words.length;i++){var w=words[i].replace(/s$/,"");if(h.indexOf(w)<0)return false;}
   for(i=0;i<GROUPS.length;i++){if(!matchGroup(x,GROUPS[i].key,S.f[GROUPS[i].key]))return false;}
-  if(S.t.freeOnly&&x.cost!=="free")return false;
   if(S.t.hidePaused&&x.status==="paused")return false;
   if(S.t.namedOnly&&!x.petName)return false;
   if(S.t.noOrientation&&needsPrep(x))return false;
@@ -278,7 +281,8 @@ function card(x){
   arr(x.age).forEach(function(v){if(v!=="any")tags.push('<span class="tag">'+esc(LABEL["age:"+v]||v)+'</span>');});
   arr(x.temper).forEach(function(v){tags.push('<span class="tag t">'+esc(LABEL["temper:"+v]||v)+'</span>');});
   if(x.status==="paused")tags.push('<span class="tag w">Paused</span>');
-  if(x.cost!=="free")tags.push('<span class="tag w">Has a fee</span>');
+  if(x.cost==="fee")tags.push('<span class="tag w">You pay a fee</span>');
+  if(x.cost==="paid")tags.push('<span class="tag p">You get paid</span>');
   if(isOld(x))tags.push('<span class="tag w">Older post, confirm it is still open</span>');
   var rows=[["Does",arr(x.activity).map(function(v){return LABEL["activity:"+v]||v;}).join(", ")],["Says",x.says],["When",x.when],["Commit",x.commitNote],["First",x.prep],["Cost",x.costNote]];
   var dl="";for(i=0;i<rows.length;i++){if(rows[i][1])dl+="<dt>"+rows[i][0]+"</dt><dd>"+esc(rows[i][1])+"</dd>";}
@@ -331,10 +335,7 @@ function render(){
     if(S.sort==="fresh"){return String(b.sourceUpdated||"").localeCompare(String(a.sourceUpdated||""));}
     var da=dist(a),db=dist(b);if(da===null&&db===null)return String(a.title).localeCompare(String(b.title));if(da===null)return 1;if(db===null)return -1;return da-db;
   });
-  var feeHidden=0;
-  if(S.t.freeOnly){S.t.freeOnly=false;feeHidden=S.items.filter(function(x){return x.cost!=="free"&&passes(x,false);}).length;S.t.freeOnly=true;}
   count.textContent=list.length+" of "+S.items.length+(list.length===1?" listing matches":" listings match")+(S.slow?" (may be out of date)":"");
-  if(feeHidden){count.insertAdjacentHTML("beforeend",' <button class="link" type="button" id="showfee">+ '+feeHidden+' more with a fee</button>');}
   board.innerHTML=list.length?list.map(card).join(""):'<div class="empty">Nothing matches all of that. Widen the distance or clear a filter.</div>';
   $("reset").hidden=activeCount()===0;
 }
@@ -358,7 +359,6 @@ document.addEventListener("click",function(e){
   else if(b.dataset.g){toggle(b.dataset.g,b.dataset.v);}
   else if(b.dataset.cat){S.cat=S.cat===b.dataset.cat?"":b.dataset.cat;render();}
   else if(b.dataset.save){var id=b.dataset.save;if(S.saved[id])delete S.saved[id];else S.saved[id]=1;store("bp-saved",S.saved);render();}
-  else if(b.id==="showfee"){S.t.freeOnly=false;render();}
   else if(b.id==="reset"){S.q="";S.f={};S.cat="";S.t.namedOnly=false;S.t.noOrientation=false;S.t.savedOnly=false;$("q").value="";$("q2").value="";render();}
   else if(b.id==="copy"){var ta=$("offer"),out=$("copied");
     try{navigator.clipboard.writeText(ta.value).then(function(){out.textContent="Copied.";},function(){ta.select();out.textContent="Selected. Press Ctrl or Cmd + C.";});}

@@ -50,60 +50,6 @@
  },
  {
   "activity": [
-   "walk"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Manhattan",
-  "breed": "Pit bull",
-  "commit": "weekly",
-  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
-  "cost": "free",
-  "costNote": "Free",
-  "daypart": [
-   "midday",
-   "evening"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-10",
-  "hood": "2nd Ave and E 112th St, New York",
-  "id": "paws-048bf48110a2",
-  "kind": "neighbor",
-  "lat": 40.7918,
-  "lon": -73.9448,
-  "org": "PAWS NY",
-  "petName": "Blue",
-  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
-  "requires": [
-   "orientation"
-  ],
-  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
-  "size": [
-   "medium",
-   "large"
-  ],
-  "source": "via Points of Light",
-  "sourceUpdated": "2025-09-30",
-  "species": [
-   "dog"
-  ],
-  "src": "paws",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "energetic"
-  ],
-  "title": "Blue",
-  "url": "https://engage.pointsoflight.org/opportunities/68-a46ed0f3-2aaf-3dec-db44-048bf48110a2",
-  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
- },
- {
-  "activity": [
    "walk",
    "visit"
   ],
@@ -620,6 +566,60 @@
   "title": "Phoenix",
   "url": "https://engage.pointsoflight.org/opportunities/68-43905ad7-f9d2-ab98-01c4-bc4d33fa8fe2",
   "when": "Mon, Tues, Wed, Thurs, Fri, Sat, Sun: 5:30pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Manhattan",
+  "breed": "Pit bull",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "2nd Ave and E 112th St, New York",
+  "id": "paws-c0f08093203b",
+  "kind": "neighbor",
+  "lat": 40.7918,
+  "lon": -73.9448,
+  "org": "PAWS NY",
+  "petName": "Blue",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
+  "size": [
+   "medium",
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly",
+   "energetic"
+  ],
+  "title": "Blue",
+  "url": "https://engage.pointsoflight.org/opportunities/68-a5413c41-af1f-1152-72ff-c0f08093203b",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
  },
  {
   "activity": [
@@ -1400,6 +1400,60 @@
  },
  {
   "activity": [
+   "walk",
+   "visit",
+   "sit"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "commitNote": "Take only the bookings you want",
+  "cost": "paid",
+  "costNote": "You set your rate; Rover's standard cut is about 20% per booking",
+  "cta": "Open Rover",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Jobs near wherever you set your profile",
+  "id": "prog-rover",
+  "keywords": [
+   "paid",
+   "side gig",
+   "boarding",
+   "drop-in"
+  ],
+  "kind": "platform",
+  "org": "Rover",
+  "prep": "18+, profile review and background check. Guides report a one-time review fee of roughly $49",
+  "requires": [
+   "application"
+  ],
+  "says": "Owners book you for walks, drop-in visits, sitting or boarding. You set your own rates and choose which pets to accept, so you can stick to calm ones.",
+  "size": [
+   "any"
+  ],
+  "source": "Rover help and 2026 guides",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Rover",
+  "url": "https://www.rover.com"
+ },
+ {
+  "activity": [
    "sit"
   ],
   "age": [
@@ -1447,5 +1501,56 @@
   "temper": [],
   "title": "TrustedHousesitters",
   "url": "https://www.trustedhousesitters.com"
+ },
+ {
+  "activity": [
+   "walk",
+   "sit"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "commitNote": "Claim walks as they appear",
+  "cost": "paid",
+  "costNote": "Paid per walk plus tips; Wag keeps a commission",
+  "cta": "Open Wag",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Jobs near wherever you set your profile",
+  "id": "prog-wag",
+  "keywords": [
+   "paid",
+   "side gig",
+   "on-demand"
+  ],
+  "kind": "platform",
+  "org": "Wag",
+  "prep": "18+, background check, a short pet-care quiz and a one-time application fee",
+  "requires": [
+   "application"
+  ],
+  "says": "On-demand dog walks and sitting, first come first served. Reports in 2025 and 2026 describe the company restructuring, so check it is active in your area before paying to apply.",
+  "size": [
+   "any"
+  ],
+  "source": "Wag's own guide and 2026 reviews",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Wag",
+  "url": "https://wagwalking.com"
  }
 ]

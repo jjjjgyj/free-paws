@@ -578,5 +578,104 @@
    "overnight"
   ],
   "id": "prog-trusted-housesitters"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "kind": "platform",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "borough": "",
+  "hood": "Jobs near wherever you set your profile",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "requires": [
+   "application"
+  ],
+  "cost": "paid",
+  "id": "prog-rover",
+  "title": "Rover",
+  "org": "Rover",
+  "activity": [
+   "walk",
+   "visit",
+   "sit"
+  ],
+  "says": "Owners book you for walks, drop-in visits, sitting or boarding. You set your own rates and choose which pets to accept, so you can stick to calm ones.",
+  "commitNote": "Take only the bookings you want",
+  "prep": "18+, profile review and background check. Guides report a one-time review fee of roughly $49",
+  "costNote": "You set your rate; Rover's standard cut is about 20% per booking",
+  "startRank": 3,
+  "url": "https://www.rover.com",
+  "cta": "Open Rover",
+  "source": "Rover help and 2026 guides",
+  "keywords": [
+   "paid",
+   "side gig",
+   "boarding",
+   "drop-in"
+  ]
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "kind": "platform",
+  "species": [
+   "dog"
+  ],
+  "borough": "",
+  "hood": "Jobs near wherever you set your profile",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "requires": [
+   "application"
+  ],
+  "cost": "paid",
+  "id": "prog-wag",
+  "title": "Wag",
+  "org": "Wag",
+  "activity": [
+   "walk",
+   "sit"
+  ],
+  "says": "On-demand dog walks and sitting, first come first served. Reports in 2025 and 2026 describe the company restructuring, so check it is active in your area before paying to apply.",
+  "commitNote": "Claim walks as they appear",
+  "prep": "18+, background check, a short pet-care quiz and a one-time application fee",
+  "costNote": "Paid per walk plus tips; Wag keeps a commission",
+  "startRank": 3,
+  "url": "https://wagwalking.com",
+  "cta": "Open Wag",
+  "source": "Wag's own guide and 2026 reviews",
+  "keywords": [
+   "paid",
+   "side gig",
+   "on-demand"
+  ]
  }
 ]
