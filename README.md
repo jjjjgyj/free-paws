@@ -1,4 +1,4 @@
-# Borrowed Paws
+# Free Paws
 
 A small site that lists real, free ways to walk, visit or cuddle someone else's
 cat or dog near you in New York City, with simple search, advanced filters and

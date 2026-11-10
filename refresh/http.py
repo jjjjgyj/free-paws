@@ -6,7 +6,7 @@ import time
 import urllib.error
 import urllib.request
 
-USER_AGENT = "borrowed-paws/1.0 (personal volunteer-listing finder; +https://github.com/jjjjgyj/free-paws)"
+USER_AGENT = "free-paws/1.0 (personal volunteer-listing finder; +https://github.com/jjjjgyj/free-paws)"
 MIN_GAP_SECONDS = 1.0
 _last_request = 0.0
 
