@@ -1,0 +1,582 @@
+[
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "large"
+  ],
+  "cost": "free",
+  "costNote": "Free; ACC lends harness, leash, treats and bags",
+  "requires": [],
+  "checked": "2026-11-09",
+  "title": "BoroughBreak: a day out with a shelter dog",
+  "org": "Animal Care Centers of NYC, Queens",
+  "kind": "shelter",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "daytrip"
+  ],
+  "hood": "1906 Flushing Ave, Ridgewood",
+  "borough": "Queens",
+  "lat": 40.7095,
+  "lon": -73.9195,
+  "says": "Staff match you with a large dog that suits your experience and your plan: a park, a hike, or a nap on your couch.",
+  "when": "Book a slot online; outings last one hour to a full day",
+  "commit": "oneoff",
+  "commitNote": "One outing at a time, nothing ongoing",
+  "prep": "18+. No orientation. Leave young children and your own dog at home",
+  "startRank": 1,
+  "url": "https://www.nycacc.org/boroughbreaks",
+  "cta": "Book an outing",
+  "source": "nycacc.org",
+  "keywords": [
+   "field trip",
+   "day trip",
+   "hike"
+  ],
+  "id": "prog-acc-boroughbreak-queens"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "large"
+  ],
+  "cost": "free",
+  "costNote": "Free; ACC lends harness, leash, treats and bags",
+  "requires": [],
+  "checked": "2026-11-09",
+  "title": "BoroughBreak from the Manhattan shelter",
+  "org": "Animal Care Centers of NYC, Manhattan",
+  "kind": "shelter",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "daytrip"
+  ],
+  "hood": "E 110th St, East Harlem",
+  "borough": "Manhattan",
+  "lat": 40.7925,
+  "lon": -73.9395,
+  "says": "Same program as Queens: staff pick a large dog to suit you, and you bring the dog back the same day.",
+  "when": "Book a slot online; outings last one hour to a full day",
+  "commit": "oneoff",
+  "commitNote": "One outing at a time, nothing ongoing",
+  "prep": "18+. No orientation. Leave young children and your own dog at home",
+  "startRank": 1,
+  "url": "https://www.nycacc.org/boroughbreaks",
+  "cta": "Book an outing",
+  "source": "nycacc.org",
+  "keywords": [
+   "field trip",
+   "day trip"
+  ],
+  "id": "prog-acc-boroughbreak-manhattan"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "large"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "orientation"
+  ],
+  "checked": "2026-11-09",
+  "title": "Straycation: a short sleepover foster",
+  "org": "Animal Care Centers of NYC",
+  "kind": "shelter",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "foster"
+  ],
+  "hood": "Pick up in Ridgewood",
+  "borough": "Queens",
+  "lat": 40.7095,
+  "lon": -73.9195,
+  "says": "Take a shelter dog home for a short stay, then return them.",
+  "commit": "flexible",
+  "commitNote": "A short stay each time",
+  "prep": "Virtual orientation on large dogs before you can book",
+  "startRank": 3,
+  "url": "https://www.nycacc.org/foster",
+  "cta": "See foster options",
+  "source": "nycacc.org",
+  "keywords": [
+   "sleepover",
+   "overnight"
+  ],
+  "id": "prog-acc-straycation"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "checked": "2026-11-09",
+  "title": "Dog and cat volunteer shifts at Queens ACC",
+  "org": "Animal Care Centers of NYC",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "hood": "1906 Flushing Ave, Ridgewood",
+  "borough": "Queens",
+  "lat": 40.7095,
+  "lon": -73.9195,
+  "says": "Dog and cat volunteers work through levels; more training opens more animal rooms.",
+  "commit": "monthly",
+  "commitNote": "At least 6 hours a month for 6 months",
+  "prep": "Apply online, then train for each level",
+  "startRank": 4,
+  "url": "https://www.nycacc.org/volunteer/",
+  "cta": "Apply to volunteer",
+  "source": "nycacc.org",
+  "keywords": [
+   "socializing",
+   "companion"
+  ],
+  "id": "prog-acc-volunteer-queens"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [],
+  "checked": "2026-11-09",
+  "title": "Walk a BARC shelter dog",
+  "org": "BARC Shelter",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "hood": "Wythe Ave at N 1st St, Williamsburg",
+  "borough": "Brooklyn",
+  "lat": 40.7185,
+  "lon": -73.9625,
+  "says": "Walks run 20 to 30 minutes, first come first served for dogs. No walk-ins any more.",
+  "when": "Reserve your hours by email first",
+  "commit": "flexible",
+  "commitNote": "Book hours when you want them",
+  "prep": "Email the shelter to reserve hours. An older guide says walkers must be 21+; confirm on their site",
+  "startRank": 2,
+  "url": "https://www.barcshelter.org/",
+  "cta": "Open their site",
+  "source": "BARC volunteer page",
+  "keywords": [
+   "brooklyn animal resource coalition",
+   "cat loft"
+  ],
+  "id": "prog-barc-williamsburg"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "checked": "2026-11-09",
+  "title": "Dog walking and cat socializing at Animal Haven",
+  "org": "Animal Haven",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "hood": "Centre St at Hester St",
+  "borough": "Manhattan",
+  "lat": 40.7187,
+  "lon": -73.999,
+  "says": "Registered volunteers walk, feed and handle dogs, and socialize cats. Fostering opens up once you are a volunteer.",
+  "commit": "",
+  "commitNote": "Read their requirements before applying",
+  "prep": "Volunteer application, then an orientation",
+  "startRank": 4,
+  "url": "https://animalhaven.org/volunteer",
+  "cta": "See requirements",
+  "source": "animalhaven.org",
+  "id": "prog-animal-haven"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-09",
+  "title": "Best Friends cat and dog care",
+  "org": "Best Friends Animal Society",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "walk",
+   "cuddle",
+   "foster"
+  ],
+  "hood": "SoHo",
+  "borough": "Manhattan",
+  "lat": 40.7222,
+  "lon": -74.004,
+  "status": "paused",
+  "says": "Training for new hands-on dog and cat volunteers is paused while they set up a new space. Fostering is still open.",
+  "commit": "flexible",
+  "commitNote": "",
+  "prep": "Application and profile",
+  "startRank": 4,
+  "url": "https://bestfriends.org/node/364753",
+  "cta": "Check for reopening",
+  "source": "bestfriends.org",
+  "id": "prog-best-friends-soho"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "evening"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-09",
+  "title": "Feed community cats with Astoria Cat Rescue",
+  "org": "Astoria Cat Rescue",
+  "kind": "shelter",
+  "species": [
+   "cat"
+  ],
+  "activity": [
+   "visit",
+   "foster"
+  ],
+  "hood": "Astoria and Long Island City",
+  "borough": "Queens",
+  "lat": 40.7644,
+  "lon": -73.9235,
+  "says": "Volunteers feed outdoor cat colonies each night and foster rescued cats. Colony cats are often shy, so this is more care than cuddling.",
+  "commit": "flexible",
+  "commitNote": "Ask the rescue",
+  "prep": "Contact the rescue to join their volunteer crew",
+  "startRank": 3,
+  "url": "https://astoriacatrescue.com",
+  "cta": "Open their site",
+  "source": "Idealist profile",
+  "keywords": [
+   "lic",
+   "feral",
+   "feeding"
+  ],
+  "id": "prog-astoria-cat-rescue"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-09",
+  "title": "Paw It Forward dog walks",
+  "org": "Paw It Forward NY",
+  "kind": "neighbor",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "walk"
+  ],
+  "hood": "Forest Hills, Rego Park and Long Island City",
+  "borough": "Queens",
+  "lat": 40.7185,
+  "lon": -73.8448,
+  "says": "Volunteers walk dogs for owners who are elderly, ill or disabled. The founder screens volunteers and pairs one or two with each dog.",
+  "commit": "weekly",
+  "commitNote": "A regular schedule with the same dog",
+  "prep": "Sign up on their site. Based on 2019 to 2021 news coverage, so confirm they are still matching volunteers",
+  "startRank": 3,
+  "url": "https://www.pawitforwardny.com",
+  "cta": "Open their site",
+  "source": "news coverage",
+  "keywords": [
+   "seniors",
+   "lic"
+  ],
+  "id": "prog-paw-it-forward"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "temper": [
+   "friendly"
+  ],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "fee",
+  "costNote": "About $12 for 30 minutes",
+  "requires": [],
+  "checked": "2026-11-09",
+  "title": "Brooklyn Cat Cafe",
+  "org": "Brooklyn Bridge Animal Welfare Coalition",
+  "kind": "cafe",
+  "species": [
+   "cat"
+  ],
+  "activity": [
+   "cuddle"
+  ],
+  "hood": "76 Montague St, Brooklyn Heights",
+  "borough": "Brooklyn",
+  "lat": 40.695,
+  "lon": -73.9965,
+  "says": "A volunteer-run adoption room with dozens of cats. Collar tags mark the ones who would prefer not to be touched.",
+  "when": "Fri to Mon, noon to 7pm",
+  "commit": "oneoff",
+  "commitNote": "Drop in or book; they also take volunteers and fosters",
+  "prep": "Booking online is cheaper than walking in",
+  "startRank": 1,
+  "url": "https://www.catcafebk.com",
+  "cta": "Book a visit",
+  "source": "local guides",
+  "keywords": [
+   "kittens",
+   "cat cafe"
+  ],
+  "id": "prog-brooklyn-cat-cafe"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "fee",
+  "costNote": "Paid visit; price on their site",
+  "requires": [],
+  "checked": "2026-11-09",
+  "title": "Meow Parlour",
+  "org": "Meow Parlour",
+  "kind": "cafe",
+  "species": [
+   "cat"
+  ],
+  "activity": [
+   "cuddle"
+  ],
+  "hood": "43 Essex St, Lower East Side",
+  "borough": "Manhattan",
+  "lat": 40.7163,
+  "lon": -73.9893,
+  "says": "Adoptable cats to sit with. Their site lists volunteer openings and a year-round need for foster homes.",
+  "when": "Mon to Thu 11am to 6:30pm, Fri to Sun 11am to 7pm",
+  "commit": "oneoff",
+  "commitNote": "Reserve a visit",
+  "prep": "Reservation strongly recommended",
+  "startRank": 1,
+  "url": "https://meowparlour.com",
+  "cta": "Reserve a visit",
+  "source": "meowparlour.com",
+  "keywords": [
+   "cat cafe"
+  ],
+  "id": "prog-meow-parlour"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "fee",
+  "costNote": "Annual sitter membership; price on their site",
+  "requires": [
+   "application"
+  ],
+  "title": "TrustedHousesitters",
+  "org": "TrustedHousesitters",
+  "kind": "platform",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "sit"
+  ],
+  "hood": "Sits wherever owners post them",
+  "borough": "",
+  "says": "Owners going away list their pets; you stay in their home and look after them. No money passes between sitter and owner.",
+  "commit": "oneoff",
+  "commitNote": "Per sit, from a weekend to weeks",
+  "prep": "Create a sitter profile and apply to sits",
+  "startRank": 2,
+  "url": "https://www.trustedhousesitters.com",
+  "cta": "Open their site",
+  "source": "",
+  "keywords": [
+   "house sitting",
+   "pet sitting",
+   "overnight"
+  ],
+  "id": "prog-trusted-housesitters"
+ }
+]

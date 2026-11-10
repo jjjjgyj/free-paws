@@ -1,0 +1,1451 @@
+[
+ {
+  "activity": [
+   "visit"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Manhattan",
+  "breed": "Domestic shorthair",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Adam Clayton Powell Jr Blvd and W 127th St, New York",
+  "id": "paws-02bae07309c0",
+  "kind": "neighbor",
+  "lat": 40.8116,
+  "lon": -73.955,
+  "org": "PAWS NY",
+  "petName": "Nibblet",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "",
+  "size": [
+   "any"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "cat"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Nibblet",
+  "url": "https://engage.pointsoflight.org/opportunities/68-c7e81e5e-9887-b09d-dde4-02bae07309c0",
+  "when": ""
+ },
+ {
+  "activity": [
+   "walk",
+   "visit"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Manhattan",
+  "breed": "",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "New York",
+  "id": "paws-148599052ea3",
+  "kind": "neighbor",
+  "lat": 40.7517,
+  "lon": -73.9707,
+  "org": "PAWS NY",
+  "petName": "",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "After orientation you pick open shifts close to home.",
+  "size": [
+   "any"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-30",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Join the PAWS NY visitor pool",
+  "url": "https://engage.pointsoflight.org/opportunities/68-c306ea96-d642-ba76-206f-148599052ea3",
+  "when": ""
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Labrador",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Cypress Ct, Brooklyn",
+  "id": "paws-3f08241d8b59",
+  "kind": "neighbor",
+  "lat": 40.6762,
+  "lon": -73.8736,
+  "org": "PAWS NY",
+  "petName": "Ivy",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Ivy is a easygoing black lab.",
+  "size": [
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "gentle"
+  ],
+  "title": "Ivy",
+  "url": "https://engage.pointsoflight.org/opportunities/68-b82635f0-f93a-09a1-4439-3f08241d8b59",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Golden lab mix",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "90th St and Gatling Pl, Brooklyn",
+  "id": "paws-54890f49b53c",
+  "kind": "neighbor",
+  "lat": 40.6251,
+  "lon": -74.0303,
+  "org": "PAWS NY",
+  "petName": "Immie",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Immie is a golden lab mix service dog who is loving and eager for more exercise!",
+  "size": [
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "affectionate",
+   "energetic",
+   "trained"
+  ],
+  "title": "Immie",
+  "url": "https://engage.pointsoflight.org/opportunities/68-7d9129c7-6ecd-1eee-2674-54890f49b53c",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "senior"
+  ],
+  "borough": "Queens",
+  "breed": "Dachshund",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday"
+  ],
+  "days": [
+   "weekday"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "23rd Ave and 95th St, East Elmhurst",
+  "id": "paws-5a507a855bc3",
+  "kind": "neighbor",
+  "lat": 40.7613,
+  "lon": -73.8739,
+  "org": "PAWS NY",
+  "petName": "Ginger",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Ginger is senior wire haired dachshund who is gentle and sweet.",
+  "size": [
+   "small"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "gentle",
+   "affectionate"
+  ],
+  "title": "Ginger",
+  "url": "https://engage.pointsoflight.org/opportunities/68-7339d37b-a454-eb8d-3c3a-5a507a855bc3",
+  "when": "Mon, Wed, Fri: 11:30am to 2pm"
+ },
+ {
+  "activity": [
+   "visit"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Bronx",
+  "breed": "",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Barker Ave and Pelham Pkwy N, Bronx",
+  "id": "paws-5e80cdb881a3",
+  "kind": "neighbor",
+  "lat": 40.8737,
+  "lon": -73.8712,
+  "org": "PAWS NY",
+  "petName": "Cleopatra and Queenie",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Two very affectionate and outgoing calico cats.",
+  "size": [
+   "any"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "cat"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "affectionate",
+   "friendly"
+  ],
+  "title": "Cleopatra and Queenie",
+  "url": "https://engage.pointsoflight.org/opportunities/68-ad3b6086-bee6-035e-aabd-5e80cdb881a3",
+  "when": ""
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Staten Island",
+  "breed": "Guide dog",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Edison St, Staten Island",
+  "id": "paws-677e50cbce92",
+  "kind": "neighbor",
+  "lat": 40.5682,
+  "lon": -74.1184,
+  "org": "PAWS NY",
+  "petName": "Aris",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Aris is black/tan guide dog who is eager for more fun exercise walks!",
+  "size": [
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "trained"
+  ],
+  "title": "Aris",
+  "url": "https://engage.pointsoflight.org/opportunities/68-c4e6f466-f481-4e27-fe11-677e50cbce92",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Queens",
+  "breed": "Cavapoo",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "morning",
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "215th St and Bell Blvd, Bayside",
+  "id": "paws-79b3233dae72",
+  "kind": "neighbor",
+  "lat": 40.7807,
+  "lon": -73.7812,
+  "org": "PAWS NY",
+  "petName": "Theo",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Theo is a super sweet and energetic cavapoo puppy who loves to go on walks.",
+  "size": [
+   "small"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "affectionate",
+   "energetic"
+  ],
+  "title": "Theo",
+  "url": "https://engage.pointsoflight.org/opportunities/68-f28fb442-6a37-e914-6b69-79b3233dae72",
+  "when": "Daily morning and evening shifts available: 8am to 8pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Terrier and Maltese",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "morning",
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "E 27th St, Brooklyn",
+  "id": "paws-8c140ef9f3bb",
+  "kind": "neighbor",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "PAWS NY",
+  "petName": "Romey",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Romey is a happy spirited terrier maltese mix.",
+  "size": [
+   "small"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Romey",
+  "url": "https://engage.pointsoflight.org/opportunities/68-59250e48-3532-310e-76bf-8c140ef9f3bb",
+  "when": "Daily morning shifts available: 8am to 8pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Queens",
+  "breed": "Basset hound",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "68th Ave and 78th St, Middle Village",
+  "id": "paws-933f23c5128e",
+  "kind": "neighbor",
+  "lat": 40.7173,
+  "lon": -73.8792,
+  "org": "PAWS NY",
+  "petName": "Raisin",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Raisin is a 4 year old Bassett mix and is a well of joy that loves to go on walks.",
+  "size": [
+   "medium"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Raisin",
+  "url": "https://engage.pointsoflight.org/opportunities/68-cd1acf88-f74e-fce4-b5cc-933f23c5128e",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Queens",
+  "breed": "Chow",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "140th St and 69th Rd, Flushing",
+  "id": "paws-bc4d33fa8fe2",
+  "kind": "neighbor",
+  "lat": 40.728,
+  "lon": -73.8195,
+  "org": "PAWS NY",
+  "petName": "Phoenix",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Phoenix is an energetic Chow who loves to go on walks!",
+  "size": [
+   "medium",
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "energetic"
+  ],
+  "title": "Phoenix",
+  "url": "https://engage.pointsoflight.org/opportunities/68-43905ad7-f9d2-ab98-01c4-bc4d33fa8fe2",
+  "when": "Mon, Tues, Wed, Thurs, Fri, Sat, Sun: 5:30pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Manhattan",
+  "breed": "Pit bull",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "2nd Ave and E 112th St, New York",
+  "id": "paws-c0f08093203b",
+  "kind": "neighbor",
+  "lat": 40.7918,
+  "lon": -73.9448,
+  "org": "PAWS NY",
+  "petName": "Blue",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
+  "size": [
+   "medium",
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly",
+   "energetic"
+  ],
+  "title": "Blue",
+  "url": "https://engage.pointsoflight.org/opportunities/68-a5413c41-af1f-1152-72ff-c0f08093203b",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "senior"
+  ],
+  "borough": "Staten Island",
+  "breed": "Bichon",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Hillcrest St and Wiman Ave, Staten Island",
+  "id": "paws-d43d7e93424f",
+  "kind": "neighbor",
+  "lat": 40.5518,
+  "lon": -74.1526,
+  "org": "PAWS NY",
+  "petName": "Simon",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Simon is a senior bichon who is mellow and loves to be around people.",
+  "size": [
+   "small"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "gentle"
+  ],
+  "title": "Simon",
+  "url": "https://engage.pointsoflight.org/opportunities/68-a5a34825-f51e-a24d-d7d0-d43d7e93424f",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "visit"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Queens",
+  "breed": "Domestic shorthair",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "morning"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Ridge Rd and Shore Rd, Little Neck",
+  "id": "paws-e1df4064640f",
+  "kind": "neighbor",
+  "lat": 40.7722,
+  "lon": -73.7454,
+  "org": "PAWS NY",
+  "petName": "Lightfoot",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Lightfoot is a gentle and affectionate domestic shorthair cat.",
+  "size": [
+   "any"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "cat"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "gentle",
+   "affectionate"
+  ],
+  "title": "Lightfoot",
+  "url": "https://engage.pointsoflight.org/opportunities/68-974ac79f-6a18-9c95-a6ea-e1df4064640f",
+  "when": "Daily morning shifts available: 8:30am to 9:30am"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Queens",
+  "breed": "Siberian husky and Retriever",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "morning",
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Crescent St, Astoria",
+  "id": "paws-f09dda13ca18",
+  "kind": "neighbor",
+  "lat": 40.7608,
+  "lon": -73.9295,
+  "org": "PAWS NY",
+  "petName": "Storm and Kaylee",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Storm is a 4 year old Siberian Husky that is full of excitement, Kaylee is a 7 year old Retriever mix that is loving and extremely laid back!",
+  "size": [
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "calm",
+   "affectionate",
+   "energetic"
+  ],
+  "title": "Storm and Kaylee",
+  "url": "https://engage.pointsoflight.org/opportunities/68-0d9c9718-230a-8c41-e771-f09dda13ca18",
+  "when": "Mon, Tues, Wed, Thurs, Fri, Sat, Sun - 2x per day: 10am to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Chihuahua",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "25th Ave and 84th St, Brooklyn",
+  "id": "paws-f42f6f2e0d81",
+  "kind": "neighbor",
+  "lat": 40.6016,
+  "lon": -73.9968,
+  "org": "PAWS NY",
+  "petName": "Pretzel",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Pretzel is a sweet and friendly chihuahua.",
+  "size": [
+   "small"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "affectionate",
+   "friendly"
+  ],
+  "title": "Pretzel",
+  "url": "https://engage.pointsoflight.org/opportunities/68-c96e6126-c131-8eb1-75a5-f42f6f2e0d81",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "daytrip"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Manhattan",
+  "checked": "2026-11-09",
+  "commit": "oneoff",
+  "commitNote": "One outing at a time, nothing ongoing",
+  "cost": "free",
+  "costNote": "Free; ACC lends harness, leash, treats and bags",
+  "cta": "Book an outing",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "E 110th St, East Harlem",
+  "id": "prog-acc-boroughbreak-manhattan",
+  "keywords": [
+   "field trip",
+   "day trip"
+  ],
+  "kind": "shelter",
+  "lat": 40.7925,
+  "lon": -73.9395,
+  "org": "Animal Care Centers of NYC, Manhattan",
+  "prep": "18+. No orientation. Leave young children and your own dog at home",
+  "requires": [],
+  "says": "Same program as Queens: staff pick a large dog to suit you, and you bring the dog back the same day.",
+  "size": [
+   "large"
+  ],
+  "source": "nycacc.org",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 1,
+  "status": "open",
+  "temper": [],
+  "title": "BoroughBreak from the Manhattan shelter",
+  "url": "https://www.nycacc.org/boroughbreaks",
+  "when": "Book a slot online; outings last one hour to a full day"
+ },
+ {
+  "activity": [
+   "daytrip"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Queens",
+  "checked": "2026-11-09",
+  "commit": "oneoff",
+  "commitNote": "One outing at a time, nothing ongoing",
+  "cost": "free",
+  "costNote": "Free; ACC lends harness, leash, treats and bags",
+  "cta": "Book an outing",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "1906 Flushing Ave, Ridgewood",
+  "id": "prog-acc-boroughbreak-queens",
+  "keywords": [
+   "field trip",
+   "day trip",
+   "hike"
+  ],
+  "kind": "shelter",
+  "lat": 40.7095,
+  "lon": -73.9195,
+  "org": "Animal Care Centers of NYC, Queens",
+  "prep": "18+. No orientation. Leave young children and your own dog at home",
+  "requires": [],
+  "says": "Staff match you with a large dog that suits your experience and your plan: a park, a hike, or a nap on your couch.",
+  "size": [
+   "large"
+  ],
+  "source": "nycacc.org",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 1,
+  "status": "open",
+  "temper": [],
+  "title": "BoroughBreak: a day out with a shelter dog",
+  "url": "https://www.nycacc.org/boroughbreaks",
+  "when": "Book a slot online; outings last one hour to a full day"
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Queens",
+  "checked": "2026-11-09",
+  "commit": "flexible",
+  "commitNote": "A short stay each time",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "See foster options",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Pick up in Ridgewood",
+  "id": "prog-acc-straycation",
+  "keywords": [
+   "sleepover",
+   "overnight"
+  ],
+  "kind": "shelter",
+  "lat": 40.7095,
+  "lon": -73.9195,
+  "org": "Animal Care Centers of NYC",
+  "prep": "Virtual orientation on large dogs before you can book",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Take a shelter dog home for a short stay, then return them.",
+  "size": [
+   "large"
+  ],
+  "source": "nycacc.org",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Straycation: a short sleepover foster",
+  "url": "https://www.nycacc.org/foster"
+ },
+ {
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Queens",
+  "checked": "2026-11-09",
+  "commit": "monthly",
+  "commitNote": "At least 6 hours a month for 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Apply to volunteer",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "1906 Flushing Ave, Ridgewood",
+  "id": "prog-acc-volunteer-queens",
+  "keywords": [
+   "socializing",
+   "companion"
+  ],
+  "kind": "shelter",
+  "lat": 40.7095,
+  "lon": -73.9195,
+  "org": "Animal Care Centers of NYC",
+  "prep": "Apply online, then train for each level",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "says": "Dog and cat volunteers work through levels; more training opens more animal rooms.",
+  "size": [
+   "any"
+  ],
+  "source": "nycacc.org",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 4,
+  "status": "open",
+  "temper": [],
+  "title": "Dog and cat volunteer shifts at Queens ACC",
+  "url": "https://www.nycacc.org/volunteer/"
+ },
+ {
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Manhattan",
+  "checked": "2026-11-09",
+  "commit": "",
+  "commitNote": "Read their requirements before applying",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "See requirements",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Centre St at Hester St",
+  "id": "prog-animal-haven",
+  "kind": "shelter",
+  "lat": 40.7187,
+  "lon": -73.999,
+  "org": "Animal Haven",
+  "prep": "Volunteer application, then an orientation",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "says": "Registered volunteers walk, feed and handle dogs, and socialize cats. Fostering opens up once you are a volunteer.",
+  "size": [
+   "any"
+  ],
+  "source": "animalhaven.org",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 4,
+  "status": "open",
+  "temper": [],
+  "title": "Dog walking and cat socializing at Animal Haven",
+  "url": "https://animalhaven.org/volunteer"
+ },
+ {
+  "activity": [
+   "visit",
+   "foster"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Queens",
+  "checked": "2026-11-09",
+  "commit": "flexible",
+  "commitNote": "Ask the rescue",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Open their site",
+  "daypart": [
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Astoria and Long Island City",
+  "id": "prog-astoria-cat-rescue",
+  "keywords": [
+   "lic",
+   "feral",
+   "feeding"
+  ],
+  "kind": "shelter",
+  "lat": 40.7644,
+  "lon": -73.9235,
+  "org": "Astoria Cat Rescue",
+  "prep": "Contact the rescue to join their volunteer crew",
+  "requires": [
+   "application"
+  ],
+  "says": "Volunteers feed outdoor cat colonies each night and foster rescued cats. Colony cats are often shy, so this is more care than cuddling.",
+  "size": [
+   "any"
+  ],
+  "source": "Idealist profile",
+  "species": [
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Feed community cats with Astoria Cat Rescue",
+  "url": "https://astoriacatrescue.com"
+ },
+ {
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Brooklyn",
+  "checked": "2026-11-09",
+  "commit": "flexible",
+  "commitNote": "Book hours when you want them",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Open their site",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Wythe Ave at N 1st St, Williamsburg",
+  "id": "prog-barc-williamsburg",
+  "keywords": [
+   "brooklyn animal resource coalition",
+   "cat loft"
+  ],
+  "kind": "shelter",
+  "lat": 40.7185,
+  "lon": -73.9625,
+  "org": "BARC Shelter",
+  "prep": "Email the shelter to reserve hours. An older guide says walkers must be 21+; confirm on their site",
+  "requires": [],
+  "says": "Walks run 20 to 30 minutes, first come first served for dogs. No walk-ins any more.",
+  "size": [
+   "any"
+  ],
+  "source": "BARC volunteer page",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 2,
+  "status": "open",
+  "temper": [],
+  "title": "Walk a BARC shelter dog",
+  "url": "https://www.barcshelter.org/",
+  "when": "Reserve your hours by email first"
+ },
+ {
+  "activity": [
+   "walk",
+   "cuddle",
+   "foster"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Manhattan",
+  "checked": "2026-11-09",
+  "commit": "flexible",
+  "commitNote": "",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Check for reopening",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "SoHo",
+  "id": "prog-best-friends-soho",
+  "kind": "shelter",
+  "lat": 40.7222,
+  "lon": -74.004,
+  "org": "Best Friends Animal Society",
+  "prep": "Application and profile",
+  "requires": [
+   "application"
+  ],
+  "says": "Training for new hands-on dog and cat volunteers is paused while they set up a new space. Fostering is still open.",
+  "size": [
+   "any"
+  ],
+  "source": "bestfriends.org",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 4,
+  "status": "paused",
+  "temper": [],
+  "title": "Best Friends cat and dog care",
+  "url": "https://bestfriends.org/node/364753"
+ },
+ {
+  "activity": [
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Brooklyn",
+  "checked": "2026-11-09",
+  "commit": "oneoff",
+  "commitNote": "Drop in or book; they also take volunteers and fosters",
+  "cost": "fee",
+  "costNote": "About $12 for 30 minutes",
+  "cta": "Book a visit",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "76 Montague St, Brooklyn Heights",
+  "id": "prog-brooklyn-cat-cafe",
+  "keywords": [
+   "kittens",
+   "cat cafe"
+  ],
+  "kind": "cafe",
+  "lat": 40.695,
+  "lon": -73.9965,
+  "org": "Brooklyn Bridge Animal Welfare Coalition",
+  "prep": "Booking online is cheaper than walking in",
+  "requires": [],
+  "says": "A volunteer-run adoption room with dozens of cats. Collar tags mark the ones who would prefer not to be touched.",
+  "size": [
+   "any"
+  ],
+  "source": "local guides",
+  "species": [
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 1,
+  "status": "open",
+  "temper": [
+   "friendly"
+  ],
+  "title": "Brooklyn Cat Cafe",
+  "url": "https://www.catcafebk.com",
+  "when": "Fri to Mon, noon to 7pm"
+ },
+ {
+  "activity": [
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Manhattan",
+  "checked": "2026-11-09",
+  "commit": "oneoff",
+  "commitNote": "Reserve a visit",
+  "cost": "fee",
+  "costNote": "Paid visit; price on their site",
+  "cta": "Reserve a visit",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "43 Essex St, Lower East Side",
+  "id": "prog-meow-parlour",
+  "keywords": [
+   "cat cafe"
+  ],
+  "kind": "cafe",
+  "lat": 40.7163,
+  "lon": -73.9893,
+  "org": "Meow Parlour",
+  "prep": "Reservation strongly recommended",
+  "requires": [],
+  "says": "Adoptable cats to sit with. Their site lists volunteer openings and a year-round need for foster homes.",
+  "size": [
+   "any"
+  ],
+  "source": "meowparlour.com",
+  "species": [
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 1,
+  "status": "open",
+  "temper": [],
+  "title": "Meow Parlour",
+  "url": "https://meowparlour.com",
+  "when": "Mon to Thu 11am to 6:30pm, Fri to Sun 11am to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Queens",
+  "checked": "2026-11-09",
+  "commit": "weekly",
+  "commitNote": "A regular schedule with the same dog",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Open their site",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Forest Hills, Rego Park and Long Island City",
+  "id": "prog-paw-it-forward",
+  "keywords": [
+   "seniors",
+   "lic"
+  ],
+  "kind": "neighbor",
+  "lat": 40.7185,
+  "lon": -73.8448,
+  "org": "Paw It Forward NY",
+  "prep": "Sign up on their site. Based on 2019 to 2021 news coverage, so confirm they are still matching volunteers",
+  "requires": [
+   "application"
+  ],
+  "says": "Volunteers walk dogs for owners who are elderly, ill or disabled. The founder screens volunteers and pairs one or two with each dog.",
+  "size": [
+   "any"
+  ],
+  "source": "news coverage",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Paw It Forward dog walks",
+  "url": "https://www.pawitforwardny.com"
+ },
+ {
+  "activity": [
+   "sit"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "",
+  "commit": "oneoff",
+  "commitNote": "Per sit, from a weekend to weeks",
+  "cost": "fee",
+  "costNote": "Annual sitter membership; price on their site",
+  "cta": "Open their site",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-10",
+  "hood": "Sits wherever owners post them",
+  "id": "prog-trusted-housesitters",
+  "keywords": [
+   "house sitting",
+   "pet sitting",
+   "overnight"
+  ],
+  "kind": "platform",
+  "org": "TrustedHousesitters",
+  "prep": "Create a sitter profile and apply to sits",
+  "requires": [
+   "application"
+  ],
+  "says": "Owners going away list their pets; you stay in their home and look after them. No money passes between sitter and owner.",
+  "size": [
+   "any"
+  ],
+  "source": "",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 2,
+  "status": "open",
+  "temper": [],
+  "title": "TrustedHousesitters",
+  "url": "https://www.trustedhousesitters.com"
+ }
+]
