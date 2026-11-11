@@ -202,60 +202,6 @@
  },
  {
   "activity": [
-   "walk"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Manhattan",
-  "breed": "Pit bull",
-  "commit": "weekly",
-  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
-  "cost": "free",
-  "costNote": "Free",
-  "daypart": [
-   "midday",
-   "evening"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-11",
-  "hood": "2nd Ave and E 112th St, New York",
-  "id": "paws-048bf48110a2",
-  "kind": "neighbor",
-  "lat": 40.7918,
-  "lon": -73.9448,
-  "org": "PAWS NY",
-  "petName": "Blue",
-  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
-  "requires": [
-   "orientation"
-  ],
-  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
-  "size": [
-   "medium",
-   "large"
-  ],
-  "source": "via Points of Light",
-  "sourceUpdated": "2025-09-30",
-  "species": [
-   "dog"
-  ],
-  "src": "paws",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "energetic"
-  ],
-  "title": "Blue",
-  "url": "https://engage.pointsoflight.org/opportunities/68-a46ed0f3-2aaf-3dec-db44-048bf48110a2",
-  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
- },
- {
-  "activity": [
    "walk",
    "visit"
   ],
@@ -778,6 +724,60 @@
    "walk"
   ],
   "age": [
+   "adult"
+  ],
+  "borough": "Manhattan",
+  "breed": "Pit bull",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "2nd Ave and E 112th St, New York",
+  "id": "paws-c0f08093203b",
+  "kind": "neighbor",
+  "lat": 40.7918,
+  "lon": -73.9448,
+  "org": "PAWS NY",
+  "petName": "Blue",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
+  "size": [
+   "medium",
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly",
+   "energetic"
+  ],
+  "title": "Blue",
+  "url": "https://engage.pointsoflight.org/opportunities/68-a5413c41-af1f-1152-72ff-c0f08093203b",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
    "senior"
   ],
   "borough": "Staten Island",
@@ -1088,6 +1088,105 @@
  },
  {
   "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Bronx",
+  "checked": "2026-11-10",
+  "commit": "",
+  "commitNote": "",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Check for the opening",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "Bartow Ave, Co-op City",
+  "id": "prog-acc-bronx",
+  "kind": "shelter",
+  "lat": 40.869,
+  "lon": -73.827,
+  "org": "Animal Care Centers of NYC",
+  "prep": "Watch their page for the opening and volunteer sign-up",
+  "requires": [
+   "application"
+  ],
+  "says": "The Bronx's first full-service city shelter is under construction and due to open in 2026. Volunteer roles are not open yet.",
+  "size": [
+   "any"
+  ],
+  "source": "nycacc.org",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 4,
+  "status": "paused",
+  "temper": [],
+  "title": "Bronx Animal Care Center (opening in 2026)",
+  "url": "https://www.nycacc.org/bronx/"
+ },
+ {
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Staten Island",
+  "checked": "2026-11-10",
+  "commit": "monthly",
+  "commitNote": "At least 6 hours a month for 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Apply to volunteer",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "3139 Veterans Rd W, Charleston",
+  "id": "prog-acc-staten-island",
+  "kind": "shelter",
+  "lat": 40.5275,
+  "lon": -74.233,
+  "org": "Animal Care Centers of NYC",
+  "prep": "18+. Apply online, attend an orientation, then train for each level",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "says": "Give shelter pets exercise, attention and comfort so they stay healthy and adoptable. More training opens more animal rooms.",
+  "size": [
+   "any"
+  ],
+  "source": "nycacc.org",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 4,
+  "status": "open",
+  "temper": [],
+  "title": "Dog and cat volunteer shifts at Staten Island ACC",
+  "url": "https://www.nycacc.org/volunteer/"
+ },
+ {
+  "activity": [
    "foster"
   ],
   "age": [
@@ -1240,6 +1339,58 @@
   "temper": [],
   "title": "Dog walking and cat socializing at Animal Haven",
   "url": "https://animalhaven.org/volunteer"
+ },
+ {
+  "activity": [
+   "foster",
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Manhattan",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "commitNote": "Ask the rescue",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Open their site",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "Cat room at 340 W 49th St, Hell's Kitchen",
+  "id": "prog-anjellicle",
+  "keywords": [
+   "kittens",
+   "petco"
+  ],
+  "kind": "shelter",
+  "lat": 40.7625,
+  "lon": -73.9885,
+  "org": "Anjellicle Cats Rescue",
+  "prep": "Email them to foster or volunteer; contact details are on their site",
+  "requires": [
+   "application"
+  ],
+  "says": "An all-volunteer cat rescue with a large foster network and adoption rooms in Hell's Kitchen and on the Upper East Side. They welcome new volunteers and fosters.",
+  "size": [
+   "any"
+  ],
+  "source": "Idealist profile",
+  "species": [
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Foster or volunteer with Anjellicle Cats Rescue",
+  "url": "https://www.anjelliclecats.com"
  },
  {
   "activity": [
@@ -1605,6 +1756,55 @@
   "age": [
    "any"
   ],
+  "borough": "Manhattan",
+  "checked": "2026-11-10",
+  "commit": "oneoff",
+  "commitNote": "Drop in",
+  "cost": "fee",
+  "costNote": "The price of a coffee",
+  "cta": "Read about the reopening",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "195 Avenue A, East Village",
+  "id": "prog-boris-horton",
+  "keywords": [
+   "dog cafe",
+   "adoption events"
+  ],
+  "kind": "cafe",
+  "lat": 40.7295,
+  "lon": -73.9815,
+  "org": "Boris & Horton",
+  "prep": "No booking; the dogs belong to other customers, so ask before petting",
+  "requires": [],
+  "says": "A café where customers bring their own dogs, so you can have a coffee surrounded by them, and rescues hold adoption events there. It closed in late 2024 and reopened under new management in 2025; check hours before you go.",
+  "size": [
+   "any"
+  ],
+  "source": "EV Grieve, April 2025",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 1,
+  "status": "open",
+  "temper": [],
+  "title": "Boris & Horton dog café",
+  "url": "https://evgrieve.com/2025/04/first-look-at-revamped-dog-cafe-boris.html"
+ },
+ {
+  "activity": [
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
   "borough": "Brooklyn",
   "checked": "2026-11-09",
   "commit": "oneoff",
@@ -1650,6 +1850,59 @@
   "title": "Brooklyn Cat Cafe",
   "url": "https://www.catcafebk.com",
   "when": "Fri to Mon, noon to 7pm"
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Brooklyn",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "commitNote": "Ideally until adoption; cover is available",
+  "cost": "free",
+  "costNote": "Free; all medical costs covered, supplies usually your own",
+  "cta": "See how to foster",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "Flatbush",
+  "id": "prog-flatbush-cats",
+  "keywords": [
+   "kittens",
+   "tnr"
+  ],
+  "kind": "shelter",
+  "lat": 40.64,
+  "lon": -73.958,
+  "org": "Flatbush Cats",
+  "prep": "Foster application; they take cat lovers from all over Brooklyn and nearby",
+  "requires": [
+   "application"
+  ],
+  "says": "Friendly cats rescued from Brooklyn streets need a home to recover in until adoption. Volunteer sitters can cover for you if you need a break.",
+  "size": [
+   "any"
+  ],
+  "source": "flatbushcats.org",
+  "species": [
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly"
+  ],
+  "title": "Foster a rescued cat with Flatbush Cats",
+  "url": "https://www.flatbushcats.org/foster"
  },
  {
   "activity": [
@@ -1752,6 +2005,61 @@
  },
  {
   "activity": [
+   "walk",
+   "cuddle",
+   "foster"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "New Jersey",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "commitNote": "Ask the shelter",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "Open their page",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "235 Jersey City Blvd, Jersey City",
+  "id": "prog-jersey-city-shelter",
+  "keywords": [
+   "hoboken",
+   "liberty humane",
+   "nj"
+  ],
+  "kind": "shelter",
+  "lat": 40.7105,
+  "lon": -74.0585,
+  "org": "City of Jersey City",
+  "prep": "Sign up through the city's animal services page",
+  "requires": [
+   "application"
+  ],
+  "says": "The city took over the former Liberty Humane Society shelter in 2024 and runs a volunteer program: walking dogs, socializing cats and helping at adoption events.",
+  "size": [
+   "any"
+  ],
+  "source": "local guide, 2026",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Walk dogs and socialize cats at Jersey City Animal Shelter",
+  "url": "https://jcnj.org/animals"
+ },
+ {
+  "activity": [
    "foster",
    "cuddle"
   ],
@@ -1799,6 +2107,58 @@
   "title": "Foster or help at KittyKind's cat adoption center",
   "url": "https://www.kittykind.org",
   "when": "Center open Tue, Thu, Fri 6 to 8pm; Sat, Sun 1 to 4pm"
+ },
+ {
+  "activity": [
+   "foster",
+   "walk"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Queens",
+  "checked": "2026-11-10",
+  "commit": "flexible",
+  "commitNote": "Three-hour shifts, or foster until adoption",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "See volunteer roles",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "Rescue center in Astoria",
+  "id": "prog-korean-k9",
+  "keywords": [
+   "lic",
+   "jindo"
+  ],
+  "kind": "shelter",
+  "lat": 40.7644,
+  "lon": -73.9235,
+  "org": "Korean K9 Rescue",
+  "prep": "Read their volunteer FAQ, then apply",
+  "requires": [
+   "application"
+  ],
+  "says": "A volunteer-driven rescue that brings homeless and mistreated dogs from South Korea to New York. Help at the rescue center or adoption events, or foster a dog on the way to a home.",
+  "size": [
+   "any"
+  ],
+  "source": "koreank9rescue.org",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Foster or volunteer with Korean K9 Rescue",
+  "url": "https://www.koreank9rescue.org/volunteer/",
+  "when": "Rescue center shifts are three hours, Mon to Fri between 8:30am and 6pm"
  },
  {
   "activity": [
@@ -1901,6 +2261,60 @@
  },
  {
   "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "age": [
+   "any"
+  ],
+  "borough": "Long Island",
+  "checked": "2026-11-10",
+  "commit": "weekly",
+  "commitNote": "Scheduled shifts",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "See volunteer roles",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "16 Lewyt St, Port Washington",
+  "id": "prog-north-shore",
+  "keywords": [
+   "nassau",
+   "long island"
+  ],
+  "kind": "shelter",
+  "lat": 40.83,
+  "lon": -73.699,
+  "org": "North Shore Animal League America",
+  "prep": "Apply, attend orientation, then the class for your role. 16 and 17 year olds have a separate teen program",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "says": "A large no-kill adoption campus with dedicated Dog Walking and Feline Enrichment volunteer roles, each with its own class.",
+  "size": [
+   "any"
+  ],
+  "source": "animalleague.org",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "src": "programs",
+  "startRank": 4,
+  "status": "open",
+  "temper": [],
+  "title": "Dog walking and cat enrichment at North Shore Animal League",
+  "url": "https://www.animalleague.org/get-involved/volunteer/"
+ },
+ {
+  "activity": [
    "walk"
   ],
   "age": [
@@ -1949,6 +2363,63 @@
   "temper": [],
   "title": "Paw It Forward dog walks",
   "url": "https://www.pawitforwardny.com"
+ },
+ {
+  "activity": [
+   "foster",
+   "daytrip"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Manhattan",
+  "checked": "2026-11-10",
+  "commit": "monthly",
+  "commitNote": "Weekend sitters host at least one overnight a month",
+  "cost": "free",
+  "costNote": "Free",
+  "cta": "See how to volunteer",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekend"
+  ],
+  "firstSeen": "2026-11-11",
+  "hood": "Training at their Midtown office, W 38th St",
+  "id": "prog-puppies-behind-bars",
+  "keywords": [
+   "service dog",
+   "puppy sitter",
+   "overnight",
+   "veterans"
+  ],
+  "kind": "shelter",
+  "lat": 40.754,
+  "lon": -73.99,
+  "org": "Puppies Behind Bars",
+  "prep": "18+ and living in New York City. Training comes first; they describe it as a big commitment",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "says": "Puppies being raised in prisons as service dogs need time in the outside world. Sitters host one overnight, or take one out for a few hours, so the pup learns streets, homes and people.",
+  "size": [
+   "any"
+  ],
+  "source": "puppiesbehindbars.com",
+  "species": [
+   "dog"
+  ],
+  "src": "programs",
+  "startRank": 4,
+  "status": "open",
+  "temper": [
+   "trained"
+  ],
+  "title": "Host a service-dog puppy for a weekend",
+  "url": "https://puppiesbehindbars.com/become-a-pbb-volunteer/",
+  "when": "Weekends; puppies are shuttled to Manhattan"
  },
  {
   "activity": [
