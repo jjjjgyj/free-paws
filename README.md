@@ -20,7 +20,7 @@ refresh/                        the refresh script (python -m refresh)
   geo.py                        ZIP -> coordinates, cached in data/zipcache.json
 data/config.json                home location, search radius, source URLs
 data/programs.json              shelters, day trips, cat cafes: edit by hand
-site/index.html                 the whole front end, one file
+site/index.html                 the whole front end, one file (map: Leaflet + OpenStreetMap tiles)
 site/data/listings.json         generated; committed only when listings change
 ```
 

@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&family=Outfit:wght@400;500;600&family=Shippori+Mincho:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
 /* Three looks share one layout. Each look is a block of tokens below; switch with <html data-look="...">.
    wa: washi paper, sumi ink, indigo, hairline rules.  atelier: French editorial, italic serif, framed cards.
@@ -116,6 +117,27 @@ input::placeholder{color:var(--muted);opacity:.75}
 .fresh{color:var(--muted);font-size:.85rem;margin:0}
 .fresh.bad{color:var(--mark)}
 
+.mapwrap{display:flex;flex-direction:column;gap:8px}
+.mapwrap[hidden]{display:none}
+.map{height:440px;border:1px solid var(--line);border-radius:var(--radius);background:var(--soft);z-index:0;font-family:var(--body)}
+.map .leaflet-tile-pane{filter:grayscale(1) sepia(.14) brightness(1.05) contrast(.9)}
+.pin{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--on-accent);font:500 12px/1 var(--body);border:2px solid var(--surface);box-shadow:0 1px 4px rgba(0,0,0,.28);transition:transform .15s,background-color .15s}
+.pin.on{transform:scale(1.35);background:var(--ink)}
+.pin.home{width:16px;height:16px;margin:5px;background:var(--mark)}
+.map .leaflet-popup-content-wrapper,.map .leaflet-tooltip{background:var(--surface);color:var(--ink);border-radius:max(var(--radius),4px);box-shadow:0 4px 18px rgba(0,0,0,.14);border:1px solid var(--line)}
+.map .leaflet-popup-tip{background:var(--surface)}
+.map .leaflet-tooltip{padding:8px 12px;font-size:.85rem;line-height:1.45;max-width:260px;white-space:normal}
+.map .leaflet-tooltip::before{display:none}
+.map .leaflet-popup-content{margin:16px 18px;font-size:.9rem;line-height:1.5;display:flex;flex-direction:column;gap:16px;max-height:300px;overflow:auto}
+.pop{display:flex;flex-direction:column;gap:5px}
+.pop+.pop{border-top:1px solid var(--line);padding-top:14px}
+.pop b{font-family:var(--display);font-weight:var(--display-weight);font-style:var(--display-style);font-size:1.2rem;line-height:1.2}
+.pop p{margin:0}
+.pop .m{color:var(--muted);font-size:.85rem}
+.pop .row{display:flex;gap:16px;align-items:center;padding-top:4px}
+.map .pop a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.pop button{background:none;border:0;padding:0;cursor:pointer;color:var(--muted);text-decoration:underline;text-underline-offset:3px;font-size:.85rem}
+.card.hl{outline:2px solid var(--accent);outline-offset:6px}
 .board{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,var(--col-min)),1fr));gap:var(--board-gap)}
 .card{background:var(--card-bg);border:var(--card-border);border-top:var(--card-rule);border-radius:var(--radius);padding:var(--card-pad);display:flex;flex-direction:column;gap:14px;min-width:0}
 :root[data-look="atelier"] .card{border-top:var(--card-border)}
@@ -258,6 +280,7 @@ footer p{margin:0}
       <span class="count" id="count">Loading listings…</span>
       <span class="right">
         <button class="link" id="reset" type="button">Clear filters</button>
+        <button class="link" id="maptoggle" type="button">Hide map</button>
         <label class="lab" for="sort">Sort</label>
         <select id="sort">
           <option value="near">Nearest first</option>
@@ -265,6 +288,10 @@ footer p{margin:0}
           <option value="fresh">Most recently updated</option>
         </select>
       </span>
+    </div>
+    <div class="mapwrap" id="mapwrap">
+      <div class="map" id="map" role="region" aria-label="Map of the listings below"></div>
+      <p class="hint" id="mapnote"></p>
     </div>
     <div class="board" id="board"></div>
   </section>
@@ -283,7 +310,7 @@ footer p{margin:0}
 
   <footer>
     <p class="fresh" id="fresh" hidden></p>
-    <p>Distances are straight-line from the center of the place you entered. Size is the typical size for the breed when a listing gives no weight. Temperament is the poster's own description, so meet the pet before you commit.</p>
+    <p>Distances are straight-line from the center of the place you entered. Map data © OpenStreetMap contributors. Size is the typical size for the breed when a listing gives no weight. Temperament is the poster's own description, so meet the pet before you commit.</p>
     <div class="looks" id="looks"><span>Look</span>
       <button type="button" data-look="wa">Wa</button>
       <button type="button" data-look="atelier">Atelier</button>
@@ -292,6 +319,7 @@ footer p{margin:0}
   </footer>
 </div>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function(){
 "use strict";
@@ -389,7 +417,7 @@ function card(x){
   var more=factRows([["First",x.prep],["Cost",x.costNote]]);
   var src=[x.org,x.source,x.sourceUpdated?"post updated "+fmtDate(x.sourceUpdated):"",x.checked?"checked "+fmtDate(x.checked):""].filter(Boolean).join(" · ");
   var url=safeUrl(x.url);
-  return '<article class="card'+(x.status==="paused"?" paused":"")+'">'+
+  return '<article id="card-'+esc(x.id)+'" class="card'+(x.status==="paused"?" paused":"")+'">'+
    '<div class="c-top"><span class="lab">'+esc(kind)+'</span>'+(d!==null?'<span class="dist">'+d.toFixed(1)+' mi</span>':'')+'</div>'+
    '<div class="head">'+(safeUrl(x.photo)?'<img class="photo" loading="lazy" alt="" src="'+esc(x.photo)+'">':'')+'<div><h3>'+esc(x.title)+'</h3>'+
    '<p class="sub">'+esc([x.breed,[x.hood,x.borough].filter(Boolean).join(", ")].filter(Boolean).join(" · "))+'</p></div></div>'+
@@ -402,6 +430,54 @@ function card(x){
    '<button class="btn save" type="button" data-save="'+esc(x.id)+'" aria-pressed="'+(S.saved[x.id]?"true":"false")+'">'+MARK+(S.saved[x.id]?"Saved":"Save")+'</button></div>'+
   '</article>';
 }
+var MAP=null,LAYER=null,PINS={},MAPSIG="",MAPON=true;
+function initMap(){
+  if(MAP||!window.L)return;
+  MAP=L.map("map",{scrollWheelZoom:false,zoomSnap:0.5}).setView([40.7447,-73.9485],11);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(MAP);
+  LAYER=L.layerGroup().addTo(MAP);
+}
+function tipHtml(g){
+  return g.map(function(x){var d=dist(x);
+    return "<b>"+esc(x.title)+"</b><br>"+esc((KIND[x.kind]||"Listing")+(d!==null?" · "+d.toFixed(1)+" mi":""))+(x.when?"<br>"+esc(x.when):"");}).join("<br><br>");
+}
+function popHtml(g){
+  return g.map(function(x){var d=dist(x),url=safeUrl(x.url),says=String(x.says||"");
+    if(says.length>150)says=says.slice(0,150).replace(/\s+\S*$/,"")+"…";
+    return '<div class="pop"><span class="lab">'+esc((KIND[x.kind]||"Listing")+(d!==null?" · "+d.toFixed(1)+" mi":""))+'</span><b>'+esc(x.title)+'</b>'+
+      '<p class="m">'+esc([x.breed,[x.hood,x.borough].filter(Boolean).join(", ")].filter(Boolean).join(" · "))+'</p>'+
+      (says?'<p>'+esc(says)+'</p>':'')+(x.when?'<p class="m">'+esc(x.when)+'</p>':'')+
+      '<div class="row">'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.cta||"Open listing")+'</a>':'')+'<button type="button" data-jump="'+esc(x.id)+'">See full card</button></div></div>';}).join("");
+}
+function drawMap(list){
+  var wrap=$("mapwrap");wrap.hidden=!MAPON||!window.L;$("maptoggle").textContent=MAPON?"Hide map":"Show map";$("maptoggle").hidden=!window.L;
+  if(wrap.hidden)return;
+  initMap();MAP.invalidateSize();
+  var placed=list.filter(function(x){return typeof x.lat==="number"&&typeof x.lon==="number";});
+  var sig=placed.map(function(x){return x.id;}).join(",")+"|"+(S.origin||"");
+  var off=list.length-placed.length;
+  $("mapnote").textContent="Pins sit at the center of each listing's ZIP code or at the program's address. Hover a pin for a summary, select it for details."+(off?" "+off+(off===1?" listing has":" listings have")+" no fixed location and "+(off===1?"is":"are")+" not on the map.":"");
+  if(sig===MAPSIG)return;
+  MAPSIG=sig;LAYER.clearLayers();PINS={};
+  var groups={},pts=[];
+  placed.forEach(function(x){var k=x.lat.toFixed(4)+","+x.lon.toFixed(4);(groups[k]=groups[k]||[]).push(x);});
+  Object.keys(groups).forEach(function(k){
+    var g=groups[k],ll=[g[0].lat,g[0].lon];pts.push(ll);
+    var m=L.marker(ll,{keyboard:true,title:"",alt:g.map(function(x){return x.title;}).join(", "),
+      icon:L.divIcon({className:"",html:'<span class="pin">'+(g.length>1?g.length:"")+'</span>',iconSize:[26,26],iconAnchor:[13,13],popupAnchor:[0,-12]})});
+    m.bindTooltip(tipHtml(g),{direction:"top",offset:[0,-14],opacity:1});
+    m.bindPopup(popHtml(g),{maxWidth:300,minWidth:240});
+    m.addTo(LAYER);
+    g.forEach(function(x){PINS[x.id]=m;});
+  });
+  if(S.origin){pts.push(S.origin);
+    L.marker(S.origin,{interactive:true,keyboard:false,zIndexOffset:-100,icon:L.divIcon({className:"",html:'<span class="pin home"></span>',iconSize:[26,26],iconAnchor:[13,13]})}).bindTooltip("You: "+esc(S.place),{direction:"top",offset:[0,-10],opacity:1}).addTo(LAYER);}
+  // Frame the dozen nearest spots when a location is set; the rest stay on the map, a zoom-out away.
+  var frame=pts;
+  if(S.origin&&placed.length>12){frame=placed.slice().sort(function(a,b){return dist(a)-dist(b);}).slice(0,12).map(function(x){return [x.lat,x.lon];});frame.push(S.origin);}
+  if(frame.length>1)MAP.fitBounds(frame,{padding:[40,40],maxZoom:14});else if(frame.length===1)MAP.setView(frame[0],13);
+}
+function pinEl(id){var m=PINS[id];return m&&m.getElement()?m.getElement().querySelector(".pin"):null;}
 function setLook(l){
   if(["wa","atelier","hygge"].indexOf(l)<0)l="wa";
   document.documentElement.setAttribute("data-look",l);
@@ -444,6 +520,7 @@ function render(){
     var da=dist(a),db=dist(b);if(da===null&&db===null)return String(a.title).localeCompare(String(b.title));if(da===null)return 1;if(db===null)return -1;return da-db;
   });
   count.textContent=list.length+" of "+S.items.length+(list.length===1?" listing":" listings")+(S.slow?" (may be out of date)":"");
+  drawMap(list);
   board.innerHTML=list.length?list.map(card).join(""):'<div class="empty">Nothing matches all of that. Widen the distance or clear a filter.</div>';
   $("reset").hidden=activeCount()===0;
 }
@@ -463,7 +540,9 @@ $("toggles").innerHTML=TOGGLES.map(function(t){return '<label><input type="check
 
 document.addEventListener("click",function(e){
   var b=e.target.closest("button");if(!b)return;
-  if(b.dataset.look){setLook(b.dataset.look);store("fp-look",b.dataset.look);}
+  if(b.dataset.jump){var c=$("card-"+b.dataset.jump);if(c){c.scrollIntoView({behavior:"smooth",block:"center"});c.classList.add("hl");setTimeout(function(){c.classList.remove("hl");},2200);}}
+  else if(b.id==="maptoggle"){MAPON=!MAPON;store("fp-map",MAPON);MAPSIG="";render();}
+  else if(b.dataset.look){setLook(b.dataset.look);store("fp-look",b.dataset.look);}
   else if(b.dataset.view){S.view=b.dataset.view;try{location.hash=S.view;}catch(x){}render();}
   else if(b.dataset.g){toggle(b.dataset.g,b.dataset.v);}
   else if(b.dataset.cat){S.cat=S.cat===b.dataset.cat?"":b.dataset.cat;render();}
@@ -489,6 +568,9 @@ function route(){var h=(location.hash||"").replace("#","");if(h==="search"||h===
 window.addEventListener("hashchange",route);
 
 setLook(store("fp-look")||"wa");
+MAPON=store("fp-map")!==false;
+["mouseover","mouseout"].forEach(function(ev){$("board").addEventListener(ev,function(e){
+  var c=e.target.closest(".card");if(!c)return;var p=pinEl(c.id.replace(/^card-/,""));if(p)p.classList.toggle("on",ev==="mouseover");});});
 S.saved=store("bp-saved")||{};
 var startPlace=store("bp-place")||"Long Island City";
 $("loc").value=startPlace;S.place=resolve(startPlace)||"";S.origin=S.place?PLACES[S.place]:null;
