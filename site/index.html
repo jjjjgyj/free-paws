@@ -45,7 +45,16 @@ button,input,select,textarea{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .lab{font-size:var(--label-size);letter-spacing:var(--label-track);text-transform:var(--label-case);color:var(--muted);font-weight:500}
 
-.mast{display:flex;flex-direction:column;gap:14px}
+.mast{display:flex;flex-wrap:wrap;gap:24px 48px;align-items:flex-end;justify-content:space-between}
+.mast-text{display:flex;flex-direction:column;gap:14px;flex:1 1 420px;min-width:0}
+.pets{fill:color-mix(in srgb,var(--ink) 14%,var(--bg));overflow:visible}
+.pets .tail,symbol .tail{fill:none;stroke:color-mix(in srgb,var(--ink) 14%,var(--bg));stroke-width:13;stroke-linecap:round}
+.pets .collar,symbol .collar{fill:none;stroke:var(--mark);stroke-width:5;stroke-linecap:round}
+.pets .ground{stroke:var(--line);stroke-width:1}
+.hero-pets{flex:0 1 380px;width:380px;max-width:100%;height:auto}
+.loaf{position:absolute;right:8%;top:0;width:150px;height:auto;transform:translateY(-100%)}
+:root[data-look="hygge"] .pets{fill:var(--soft)}
+:root[data-look="hygge"] .pets .tail{stroke:var(--soft)}
 .brand{display:flex;align-items:center;gap:10px;font-size:var(--label-size);letter-spacing:var(--label-track);text-transform:var(--label-case);color:var(--muted)}
 .brand i{width:9px;height:9px;border-radius:50%;background:var(--mark);display:block}
 h1{font-size:var(--hero-size);letter-spacing:-.01em;max-width:16ch}
@@ -148,7 +157,7 @@ details .facts{padding:8px 0 2px}
 .btn.save[aria-pressed=true] svg{fill:currentColor}
 .empty{padding:48px 0;text-align:center;color:var(--muted);grid-column:1/-1;border-top:1px solid var(--line)}
 
-.offer{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px 56px;padding-top:36px;border-top:1px solid var(--line)}
+.offer{position:relative;margin-top:60px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px 56px;padding-top:36px;border-top:1px solid var(--line)}
 .offer h2{font-size:1.8rem;max-width:14ch}
 .offer p{margin:12px 0 0;color:var(--muted);max-width:44ch}
 .offer textarea{width:100%;min-height:150px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;resize:vertical;line-height:1.6}
@@ -164,10 +173,39 @@ footer p{margin:0}
 </head>
 <body>
 <div class="wrap">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="pet-dog" viewBox="0 0 200 200">
+      <path class="tail" d="M150 190 C176 186 186 166 180 146"/>
+      <path d="M70 86 C40 110 32 165 42 200 L158 200 C168 165 160 110 130 86 Z"/>
+      <ellipse cx="100" cy="62" rx="35" ry="31"/>
+      <ellipse cx="63" cy="72" rx="13" ry="27" transform="rotate(14 63 72)"/>
+      <ellipse cx="137" cy="72" rx="13" ry="27" transform="rotate(-14 137 72)"/>
+      <path class="collar" d="M73 93 Q100 106 127 93"/>
+    </symbol>
+    <symbol id="pet-cat" viewBox="0 0 200 200">
+      <path class="tail" d="M146 192 C184 194 192 150 168 138"/>
+      <path d="M78 88 C52 112 42 160 50 200 L150 200 C158 160 148 112 122 88 Z"/>
+      <ellipse cx="100" cy="66" rx="36" ry="30"/>
+      <path d="M70 54 L64 16 L94 40 Z M130 54 L136 16 L106 40 Z"/>
+    </symbol>
+    <symbol id="pet-loaf" viewBox="0 0 170 84">
+      <path class="tail" d="M142 76 C164 76 164 56 152 52"/>
+      <path d="M18 84 C8 52 40 30 84 30 C128 30 154 52 146 84 Z"/>
+      <circle cx="40" cy="42" r="23"/>
+      <path d="M22 32 L19 6 L40 22 Z M46 21 L62 7 L60 32 Z"/>
+    </symbol>
+  </svg>
   <header class="mast">
-    <div class="brand"><i aria-hidden="true"></i>Free Paws · New York</div>
-    <h1>Borrow a cat or a dog for an hour.</h1>
-    <p class="lede">Real pets near you whose people need a walk, a visit or a cuddle. Mostly free, refreshed every morning, and every entry links to the group that posted it.</p>
+    <div class="mast-text">
+      <div class="brand"><i aria-hidden="true"></i>Free Paws · New York</div>
+      <h1>Borrow a cat or a dog for an hour.</h1>
+      <p class="lede">Real pets near you whose people need a walk, a visit or a cuddle. Mostly free, refreshed every morning, and every entry links to the group that posted it.</p>
+    </div>
+    <svg class="pets hero-pets" viewBox="0 0 400 232" role="img" aria-label="A dog and a cat sitting side by side, seen from behind">
+      <use href="#pet-dog" x="30" y="12" width="200" height="200"/>
+      <use href="#pet-cat" x="212" y="52" width="160" height="160"/>
+      <line class="ground" x1="0" y1="212.5" x2="400" y2="212.5"/>
+    </svg>
   </header>
 
   <div class="search-zone">
@@ -232,6 +270,7 @@ footer p{margin:0}
   </section>
 
   <section class="offer">
+    <svg class="pets loaf" viewBox="0 0 170 84" aria-hidden="true"><use href="#pet-loaf"/></svg>
     <div>
       <h2>Or simply offer.</h2>
       <p>Many owners never post a request. A short note in your building chat, on Nextdoor or in a local Buy Nothing group often reaches them. Edit this one, then copy it.</p>
