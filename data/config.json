@@ -1,14 +1,14 @@
 {
  "home": {
-  "label": "Long Island City",
-  "lat": 40.7447,
-  "lon": -73.9485
+  "label": "New York City",
+  "lat": 40.7306,
+  "lon": -73.9352
  },
  "paws": {
   "indexUrl": "https://engage.pointsoflight.org/footprint-organizations/pets-are-wonderful-support-paws-ny-68-9fa3d3c6-f174-a6f5-93e8-0b93df5e9f7f"
  },
  "rescuegroups": {
-  "miles": 15,
+  "miles": 20,
   "limitPerSpecies": 60
  }
 }

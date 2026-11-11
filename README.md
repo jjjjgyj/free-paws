@@ -1,8 +1,9 @@
 # Free Paws
 
-A small site that lists real, free ways to walk, visit or cuddle someone else's
-cat or dog near you in New York City, with simple search, advanced filters and
-categories.
+A public, volunteer-run site that gathers open requests from New Yorkers,
+shelters and rescues who need a hand with a dog or cat: walks for neighbors who
+can't manage them, cat visits, shelter shifts and foster homes. It has search,
+filters, categories and a map. It is independent of the organizations listed.
 
 The listings refresh themselves once a day. No AI is involved in a refresh: a
 short Python script (standard library only) fetches each source, tags the
