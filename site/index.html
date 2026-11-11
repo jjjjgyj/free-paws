@@ -349,7 +349,7 @@ var GROUPS=[
  {key:"temper",label:"Temperament",opts:[["gentle","Gentle"],["calm","Calm"],["affectionate","Affectionate"],["friendly","Friendly"],["energetic","Energetic"],["trained","Trained"]]},
  {key:"age",label:"Age",opts:[["young","Puppy or kitten"],["adult","Adult"],["senior","Senior"]]},
  {key:"activity",label:"How you can help",opts:[["walk","Walk"],["visit","Home visit: feed or litter"],["cuddle","Cuddle and socialize"],["daytrip","Day out"],["foster","Short foster"],["sit","House or pet sitting"]]},
- {key:"kind",label:"Who needs help",opts:[["neighbor","A neighbor in need"],["rescue","Rescue pet needing a foster"],["shelter","Shelter animals"],["cafe","Cat café"],["platform","Matching platform"]]},
+ {key:"kind",label:"Who needs help",opts:[["neighbor","A neighbor in need"],["rescue","Rescue pet needing a foster"],["shelter","Shelter animals"],["cafe","Cat café"],["platform","Matching platform"],["job","Paid job"]]},
  {key:"commit",label:"Commitment",opts:[["oneoff","One-off"],["weekly","Weekly shift"],["monthly","Monthly minimum"],["flexible","Flexible"]]},
  {key:"daypart",label:"Time of day",opts:[["morning","Morning"],["midday","Midday"],["evening","Evening"]]},
  {key:"days",label:"Days",opts:[["weekday","Weekdays"],["weekend","Weekends"]]},
@@ -366,9 +366,9 @@ var CATS=[
  {id:"no-strings",t:"Start this week",d:"No orientation or application to complete first",f:function(x){return !needsPrep(x);}},
  {id:"small-gentle",t:"Small or gentle pets",d:"A calm first match if you are new to this",f:function(x){return has(x.size,"small")||has(x.temper,"gentle")||has(x.temper,"calm");}},
  {id:"cat-rooms",t:"Visit a rescue cat café",d:"Your visit fee supports the cats waiting for homes",f:function(x){return x.kind==="cafe";}},
- {id:"platforms",t:"Sitting and walking platforms",d:"Sites that pair you with owners, some paid",f:function(x){return x.kind==="platform";}}
+ {id:"platforms",t:"Paid work and platforms",d:"Dog-walking jobs and sites that pair you with owners",f:function(x){return x.kind==="platform"||x.kind==="job";}}
 ];
-var KIND={neighbor:"Neighbor in need",rescue:"Rescue pet, needs a foster",shelter:"Shelter",cafe:"Cat café",platform:"Platform"};
+var KIND={neighbor:"Neighbor in need",rescue:"Rescue pet, needs a foster",shelter:"Shelter",cafe:"Cat café",platform:"Platform",job:"Paid job"};
 var LABEL={};GROUPS.forEach(function(g){g.opts.forEach(function(o){LABEL[g.key+":"+o[0]]=o[1];});});
 
 var S={items:[],loaded:false,slow:false,err:"",meta:null,view:"search",q:"",f:{},t:{hidePaused:true,namedOnly:false,noOrientation:false,savedOnly:false},cat:"",sort:"near",place:"",origin:null,radius:999,saved:{}};

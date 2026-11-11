@@ -677,5 +677,670 @@
    "side gig",
    "on-demand"
   ]
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "checked": "2026-11-10",
+  "title": "Dog walking and cat socializing at NYC Second Chance Rescue",
+  "org": "NYC Second Chance Rescue",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "hood": "Adoption Center, Long Island City",
+  "borough": "Queens",
+  "lat": 40.7447,
+  "lon": -73.9485,
+  "says": "Walk and socialize dogs, or sit with cats, to get them ready for foster and forever homes. Cat shifts can include some cleaning.",
+  "when": "Sessions of at least one hour",
+  "commit": "flexible",
+  "commitNote": "One hour minimum per session",
+  "prep": "Orientation first; dog volunteers also shadow staff at least five times",
+  "startRank": 3,
+  "url": "https://nycsecondchancerescue.org/volunteer/",
+  "cta": "See volunteer roles",
+  "source": "nycsecondchancerescue.org",
+  "keywords": [
+   "lic",
+   "socializer"
+  ],
+  "id": "prog-second-chance-lic"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [],
+  "checked": "2026-11-10",
+  "title": "Drop in and walk a dog at Sean Casey Animal Rescue",
+  "org": "Sean Casey Animal Rescue",
+  "kind": "shelter",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "walk"
+  ],
+  "hood": "153 E 3rd St, Windsor Terrace",
+  "borough": "Brooklyn",
+  "lat": 40.6485,
+  "lon": -73.979,
+  "says": "Come by any day and take a shelter dog out. Dogs must be back by 6pm.",
+  "when": "Any day, 11am to 5:30pm",
+  "commit": "oneoff",
+  "commitNote": "Drop in whenever you like",
+  "prep": "Fill in the dog walker form at the shelter. Bring photo ID and proof of address. 16+",
+  "startRank": 1,
+  "url": "https://www.nyanimalrescue.org/volunteer",
+  "cta": "See the walking rules",
+  "source": "nyanimalrescue.org",
+  "keywords": [
+   "walk-in",
+   "drop-in",
+   "scar"
+  ],
+  "id": "prog-sean-casey"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "morning",
+   "midday",
+   "evening"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [],
+  "checked": "2026-11-10",
+  "title": "Walk rescue dogs with HDBnQ Rescue",
+  "org": "HDBnQ Rescue",
+  "kind": "shelter",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "walk"
+  ],
+  "hood": "Rescue headquarters; address on their site",
+  "borough": "",
+  "says": "Pick a slot on their sign-up sheet and give the dogs exercise and company. Supplies are provided.",
+  "when": "Every day at 7am, 12pm and 4:30pm",
+  "commit": "oneoff",
+  "commitNote": "Sign up slot by slot",
+  "prep": "Sign the volunteer agreement, then choose a time. 14+, under 18 with a parent's sign-off",
+  "startRank": 2,
+  "url": "https://www.hdbnqrescue.org/volunteer",
+  "cta": "See how to sign up",
+  "source": "hdbnqrescue.org",
+  "id": "prog-hdbnq"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [
+   "friendly"
+  ],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Socialize rescued cats and kittens at For Animals",
+  "org": "For Animals Inc.",
+  "kind": "shelter",
+  "species": [
+   "cat"
+  ],
+  "activity": [
+   "cuddle"
+  ],
+  "hood": "Near the Lefferts Blvd A train stop, South Ozone Park",
+  "borough": "Queens",
+  "lat": 40.6858,
+  "lon": -73.8251,
+  "says": "Groom, pet and play with friendly cats and kittens in a shared room, helping kittens get used to people so they can be adopted.",
+  "commit": "flexible",
+  "commitNote": "Ask the shelter",
+  "prep": "Contact them to volunteer. Their page is a couple of years old, so confirm the role is open",
+  "startRank": 3,
+  "url": "https://www.foranimalsinc.com/about/volunteer/",
+  "cta": "See volunteer roles",
+  "source": "foranimalsinc.com",
+  "keywords": [
+   "kittens",
+   "tnr"
+  ],
+  "id": "prog-for-animals"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Be a Bobbi Buddy for a shelter dog",
+  "org": "Bobbi and the Strays",
+  "kind": "shelter",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "walk",
+   "daytrip"
+  ],
+  "hood": "Glendale; confirm location with the shelter",
+  "borough": "Queens",
+  "says": "For people who love dogs but can't adopt or foster: you are paired with one shelter dog and take them to parks and beaches. They also take weekly dog walkers.",
+  "commit": "weekly",
+  "commitNote": "Dog walkers: at least two hours, one day a week",
+  "prep": "Their volunteer page is several years old, so confirm the program still runs before planning on it",
+  "startRank": 3,
+  "url": "https://bobbiandthestrays.org/how-to-help-2/volunteer/",
+  "cta": "See volunteer roles",
+  "source": "bobbiandthestrays.org",
+  "keywords": [
+   "buddy",
+   "one on one"
+  ],
+  "id": "prog-bobbi-buddy"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "checked": "2026-11-10",
+  "title": "Dog and cat volunteering at Bideawee",
+  "org": "Bideawee",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "walk",
+   "cuddle"
+  ],
+  "hood": "Chelsea",
+  "borough": "Manhattan",
+  "lat": 40.7465,
+  "lon": -74.0014,
+  "says": "Work directly with adoptable dogs and cats, including cleaning. New volunteers are paired with an experienced one.",
+  "commit": "",
+  "commitNote": "Intake opens by season; check their page for the next round",
+  "prep": "Apply online. 16+ on your own; mentorships unlock handling more animals",
+  "startRank": 4,
+  "url": "https://bideawee.org/?p=129",
+  "cta": "See how to apply",
+  "source": "bideawee.org",
+  "id": "prog-bideawee"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application",
+   "orientation"
+  ],
+  "checked": "2026-11-10",
+  "title": "Volunteer at the ASPCA Adoption Center",
+  "org": "ASPCA",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "cuddle"
+  ],
+  "hood": "424 E 92nd St, Upper East Side",
+  "borough": "Manhattan",
+  "lat": 40.7801,
+  "lon": -73.9447,
+  "says": "Their main need is Shelter Support, which is mostly cleaning and care tasks; cat socializing and other roles follow with training.",
+  "commit": "weekly",
+  "commitNote": "An ongoing commitment; no single-day or group shifts",
+  "prep": "Apply online. 16+. Expect to stand for up to three hours and lift up to 35 lb",
+  "startRank": 4,
+  "url": "https://www.aspca.org/take-action/volunteer/volunteer-aspca-adoption-center",
+  "cta": "See how to apply",
+  "source": "aspca.org",
+  "id": "prog-aspca"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free; supplies provided",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Foster for a night, a weekend or longer with Best Friends",
+  "org": "Best Friends Animal Society",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "foster"
+  ],
+  "hood": "Pick up in SoHo",
+  "borough": "Manhattan",
+  "lat": 40.7222,
+  "lon": -74.004,
+  "says": "A foster stay can be as short as one night or a weekend. Best Friends supplies what you need to care for the pet.",
+  "commit": "flexible",
+  "commitNote": "From one night to several months",
+  "prep": "Complete their foster onboarding steps",
+  "startRank": 3,
+  "url": "https://bestfriends.org/node/364594",
+  "cta": "See how to foster",
+  "source": "bestfriends.org",
+  "keywords": [
+   "overnight",
+   "sleepover",
+   "short-term"
+  ],
+  "id": "prog-best-friends-foster"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free; essential vet costs covered",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Short-term dog fostering with Muddy Paws Rescue",
+  "org": "Muddy Paws Rescue",
+  "kind": "shelter",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "foster"
+  ],
+  "hood": "Foster homes across the city",
+  "borough": "",
+  "says": "All their dogs live in foster homes, and they often need short-term cover for a few days. They match dogs to your preferences and limits.",
+  "commit": "flexible",
+  "commitNote": "Short cover stays up to full fosters",
+  "prep": "Foster application; vet costs are covered by the rescue",
+  "startRank": 3,
+  "url": "https://www.muddypawsrescue.org/foster",
+  "cta": "See how to foster",
+  "source": "muddypawsrescue.org",
+  "keywords": [
+   "short-term",
+   "cover"
+  ],
+  "id": "prog-muddy-paws"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Foster or help at KittyKind's cat adoption center",
+  "org": "KittyKind",
+  "kind": "shelter",
+  "species": [
+   "cat"
+  ],
+  "activity": [
+   "foster",
+   "cuddle"
+  ],
+  "hood": "Inside Petco, 860 Broadway, Union Square",
+  "borough": "Manhattan",
+  "lat": 40.7372,
+  "lon": -73.9903,
+  "says": "An all-volunteer cat rescue. Volunteers foster cats at home and run the adoption center.",
+  "when": "Center open Tue, Thu, Fri 6 to 8pm; Sat, Sun 1 to 4pm",
+  "commit": "flexible",
+  "commitNote": "Ask the rescue",
+  "prep": "Contact them through their site",
+  "startRank": 3,
+  "url": "https://www.kittykind.org",
+  "cta": "Open their site",
+  "source": "Idealist and Petfinder profiles",
+  "id": "prog-kittykind"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "free",
+  "costNote": "Free",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Foster a dog or cat with Social Tees",
+  "org": "Social Tees Animal Rescue",
+  "kind": "shelter",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "foster"
+  ],
+  "hood": "East Village, by appointment",
+  "borough": "Manhattan",
+  "lat": 40.7265,
+  "lon": -73.9815,
+  "says": "A foster-based, no-kill rescue that pulls animals from shelters where they are at risk and places them in foster homes until adoption.",
+  "commit": "flexible",
+  "commitNote": "Until the pet is adopted",
+  "prep": "Foster application through their site",
+  "startRank": 3,
+  "url": "http://www.socialteesnyc.org",
+  "cta": "Open their site",
+  "source": "GuideStar profile",
+  "id": "prog-social-tees"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "paid",
+  "costNote": "Listing quotes $250 to $350 a week, paid per service",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Part-time dog walker at Swifto",
+  "org": "Swifto NY",
+  "kind": "job",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "walk"
+  ],
+  "hood": "Routes across the city",
+  "borough": "",
+  "says": "A regular employee role, not gig work: walkers are W-2 staff who typically work 15 to 20 hours a week.",
+  "commit": "weekly",
+  "commitNote": "About 15 to 20 hours a week",
+  "prep": "Job application and hiring process",
+  "startRank": 4,
+  "url": "https://swiftony.discovered.ai/application-form/59086",
+  "cta": "See the job",
+  "source": "Swifto job listing",
+  "keywords": [
+   "paid",
+   "hiring",
+   "w2"
+  ],
+  "id": "job-swifto"
+ },
+ {
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "daypart": [
+   "any"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "paid",
+  "costNote": "Listing quotes $250 to $350 a week",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Part-time dog walker and cat sitter at MixyPaws",
+  "org": "MixyPaws",
+  "kind": "job",
+  "species": [
+   "dog",
+   "cat"
+  ],
+  "activity": [
+   "walk",
+   "visit"
+  ],
+  "hood": "Routes across the city",
+  "borough": "",
+  "says": "W-2 part-time role with paid training on dog and cat behavior, paid time off and 401(k) contributions.",
+  "commit": "weekly",
+  "commitNote": "Part-time, regular schedule",
+  "prep": "Job application and hiring process",
+  "startRank": 4,
+  "url": "https://mixypaws.discovered.ai/job-details/27029",
+  "cta": "See the job",
+  "source": "MixyPaws job listing",
+  "keywords": [
+   "paid",
+   "hiring",
+   "w2"
+  ],
+  "id": "job-mixypaws"
+ },
+ {
+  "days": [
+   "weekday"
+  ],
+  "daypart": [
+   "midday"
+  ],
+  "temper": [],
+  "age": [
+   "any"
+  ],
+  "size": [
+   "any"
+  ],
+  "cost": "paid",
+  "costNote": "Paid, with PTO and 401(k)",
+  "requires": [
+   "application"
+  ],
+  "checked": "2026-11-10",
+  "title": "Part-time dog walker at Brooklyn Bark",
+  "org": "Brooklyn Bark",
+  "kind": "job",
+  "species": [
+   "dog"
+  ],
+  "activity": [
+   "walk"
+  ],
+  "hood": "Brooklyn routes",
+  "borough": "Brooklyn",
+  "says": "W-2 part-time role with a guaranteed 20 hours a week. They ask for dog walking experience.",
+  "when": "Mon to Fri, between 10am and 4pm",
+  "commit": "weekly",
+  "commitNote": "Guaranteed 20 hours a week",
+  "prep": "Job application; experience required",
+  "startRank": 4,
+  "url": "https://brooklynbark.discovered.ai/job-details/27127",
+  "cta": "See the job",
+  "source": "Brooklyn Bark job listing",
+  "keywords": [
+   "paid",
+   "hiring",
+   "w2"
+  ],
+  "id": "job-brooklyn-bark"
  }
 ]
