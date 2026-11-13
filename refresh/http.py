@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -29,6 +30,9 @@ def fetch(url: str, *, data: dict | None = None, headers: dict | None = None,
                 return resp.read().decode("utf-8", errors="replace")
         except urllib.error.HTTPError as err:
             if err.code < 500 and err.code != 429:
+                # Show the server's explanation in the job log; it never contains our key.
+                detail = err.read().decode("utf-8", errors="replace")[:600]
+                print(f"HTTP {err.code} from {url.split('?')[0]}: {detail}", file=sys.stderr)
                 raise  # a 4xx will not get better by retrying
             last_error = err
         except (urllib.error.URLError, TimeoutError) as err:

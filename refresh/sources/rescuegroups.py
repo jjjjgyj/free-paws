@@ -12,10 +12,7 @@ from .. import geo, http
 
 SOURCE_ID = "rescue"
 LABEL = "Rescue pets needing a foster"
-API = "https://api.rescuegroups.org/v5/public/animals/search/available/isneedingfoster/{species}/"
-FIELDS = ("name,breedString,sizeGroup,ageGroup,energyLevel,activityLevel,newPeopleReaction,obedienceTraining,"
-          "isHousetrained,descriptionText,pictureThumbnailUrl,url,updatedDate,distance")
-
+API = "https://api.rescuegroups.org/v5/public/animals/search/available/{species}/"
 SIZE = {"Small": "small", "Medium": "medium", "Large": "large", "X-Large": "large"}
 AGE = {"Baby": "young", "Young": "young", "Adult": "adult", "Senior": "senior"}
 
@@ -91,12 +88,14 @@ def fetch(config: dict) -> list[dict] | None:
         return None  # not configured: skipped, not an error
     cfg = config["rescuegroups"]
     home = config["home"]
-    body = {"data": {"filterRadius": {"miles": cfg["miles"], "coordinates": f"{home['lat']},{home['lon']}"}}}
+    body = {"data": {
+        "filters": [{"fieldName": "animals.isNeedingFoster", "operation": "equals", "criteria": True}],
+        "filterRadius": {"miles": cfg["miles"], "coordinates": f"{home['lat']},{home['lon']}"},
+    }}
+    headers = {"Authorization": key, "Content-Type": "application/vnd.api+json"}
     listings: list[dict] = []
     for species_path, species in (("dogs", "dog"), ("cats", "cat")):
-        url = (API.format(species=species_path)
-               + f"?limit={cfg['limitPerSpecies']}&sort=%2Bdistance&include=orgs&fields[animals]={FIELDS}")
-        payload = http.fetch_json(url, data=body, headers={
-            "Authorization": key, "Content-Type": "application/vnd.api+json"})
+        url = API.format(species=species_path) + f"?limit={cfg['limitPerSpecies']}&include=orgs&sort=animals.distance"
+        payload = http.fetch_json(url, data=body, headers=headers)
         listings += parse_response(payload, species)
     return listings
