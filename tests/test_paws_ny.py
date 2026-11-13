@@ -67,8 +67,12 @@ class RescueGroupsTest(unittest.TestCase):
             "included": [{"type": "orgs", "id": "7", "attributes": {"name": "Queens Rescue", "city": "Astoria", "postalcode": "11106"}}]}
         (x,) = rescuegroups.parse_response(payload, "dog")
         self.assertEqual((x["id"], x["size"], x["age"]), ("rescue-42", ["medium"], ["senior"]))
-        self.assertEqual(x["temper"], ["calm", "friendly", "trained"])
+        self.assertEqual(x["temper"], ["calm", "friendly"])
         self.assertEqual((x["org"], x["borough"], x["activity"]), ("Queens Rescue", "Queens", ["foster"]))
+
+    def test_spread_caps_each_rescue(self):
+        pets = [{"org": "A"}] * 5 + [{"org": "B"}] * 2
+        self.assertEqual([p["org"] for p in rescuegroups.spread(pets, 2, 10)], ["A", "A", "B", "B"])
 
     def test_skipped_without_key(self):
         with mock.patch.dict("os.environ", {"RESCUEGROUPS_API_KEY": ""}):

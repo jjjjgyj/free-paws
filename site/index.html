@@ -457,12 +457,13 @@ function tipHtml(g){
     return "<b>"+esc(x.title)+"</b><br>"+esc((KIND[x.kind]||"Listing")+(d!==null?" · "+d.toFixed(1)+" mi":""))+(x.when?"<br>"+esc(x.when):"");}).join("<br><br>");
 }
 function popHtml(g){
-  return g.map(function(x){var d=dist(x),url=safeUrl(x.url),says=String(x.says||"");
+  var more=g.length>6?'<p class="m">And '+(g.length-6)+' more at this spot. Narrow the filters to see them, or scroll the cards below.</p>':'';
+  return g.slice(0,6).map(function(x){var d=dist(x),url=safeUrl(x.url),says=String(x.says||"");
     if(says.length>150)says=says.slice(0,150).replace(/\s+\S*$/,"")+"…";
     return '<div class="pop"><span class="lab">'+esc((KIND[x.kind]||"Listing")+(d!==null?" · "+d.toFixed(1)+" mi":""))+'</span><b>'+esc(x.title)+'</b>'+
       '<p class="m">'+esc([x.breed,[x.hood,x.borough].filter(Boolean).join(", ")].filter(Boolean).join(" · "))+'</p>'+
       (says?'<p>'+esc(says)+'</p>':'')+(x.when?'<p class="m">'+esc(x.when)+'</p>':'')+
-      '<div class="row">'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.cta||"See how to help")+'</a>':'')+'<button type="button" data-jump="'+esc(x.id)+'">See full card</button></div></div>';}).join("");
+      '<div class="row">'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.cta||"See how to help")+'</a>':'')+'<button type="button" data-jump="'+esc(x.id)+'">See full card</button></div></div>';}).join("")+more;
 }
 function drawMap(list){
   var wrap=$("mapwrap");wrap.hidden=!MAPON||!window.L;$("maptoggle").textContent=MAPON?"Hide map":"Show map";$("maptoggle").hidden=!window.L;

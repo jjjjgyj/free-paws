@@ -9,6 +9,8 @@
  },
  "rescuegroups": {
   "miles": 20,
-  "limitPerSpecies": 60
+  "fetchLimit": 250,
+  "perOrg": 8,
+  "perSpecies": 40
  }
 }

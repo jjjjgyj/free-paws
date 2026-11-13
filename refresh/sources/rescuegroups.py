@@ -7,6 +7,7 @@ Docs: https://api.rescuegroups.org/v5/public/docs
 from __future__ import annotations
 
 import os
+import re
 
 from .. import geo, http
 
@@ -26,7 +27,7 @@ def temperament(attrs: dict) -> list[str]:
     if attrs.get("newPeopleReaction") == "Friendly":
         tags.append("friendly")
     training = (attrs.get("obedienceTraining") or "").lower()
-    if attrs.get("isHousetrained") or "basic training" in training or "well trained" in training:
+    if "basic training" in training or "well trained" in training:
         tags.append("trained")
     return tags
 
@@ -37,7 +38,9 @@ def to_listing(animal: dict, species: str, included: dict) -> dict:
     for ref in animal.get("relationships", {}).get("orgs", {}).get("data", []):
         org = included.get(("orgs", ref.get("id")), {})
     zip_code = str(org.get("postalcode") or "")[:5]
+    # First sentence only: rescue write-ups often go on to describe how the animal was found.
     description = " ".join((attrs.get("descriptionText") or "").split())
+    description = re.split(r"(?<=[.!?])\s", description, maxsplit=1)[0]
     listing = {
         "id": f"rescue-{animal.get('id')}",
         "src": SOURCE_ID,
@@ -47,13 +50,13 @@ def to_listing(animal: dict, species: str, included: dict) -> dict:
         "org": org.get("name") or "Rescue group",
         "kind": "rescue",
         "species": [species],
-        "size": [SIZE[attrs["sizeGroup"]]] if attrs.get("sizeGroup") in SIZE else [],
+        "size": [SIZE[attrs["sizeGroup"]]] if attrs.get("sizeGroup") in SIZE else (["any"] if species == "cat" else []),
         "temper": temperament(attrs),
         "age": [AGE[attrs["ageGroup"]]] if attrs.get("ageGroup") in AGE else [],
         "activity": ["foster"],
         "hood": org.get("city") or "",
-        "borough": geo.borough_for_zip(zip_code) if zip_code else "",
-        "says": (description[:200].rsplit(" ", 1)[0] + "…") if len(description) > 200 else description,
+        "borough": (geo.borough_for_zip(zip_code) if zip_code else "") or org.get("state") or "",
+        "says": (description[:160].rsplit(" ", 1)[0] + "…") if len(description) > 160 else description,
         "when": "",
         "days": ["weekday", "weekend"],
         "daypart": ["any"],
@@ -82,6 +85,17 @@ def parse_response(payload: dict, species: str) -> list[dict]:
     return [to_listing(animal, species, included) for animal in payload.get("data", [])]
 
 
+def spread(listings: list[dict], per_org: int, total: int) -> list[dict]:
+    """Keep the nearest pets but no more than `per_org` from one rescue, so one big group cannot fill the page."""
+    seen: dict[str, int] = {}
+    kept = []
+    for listing in listings:  # already nearest-first
+        seen[listing["org"]] = seen.get(listing["org"], 0) + 1
+        if seen[listing["org"]] <= per_org:
+            kept.append(listing)
+    return kept[:total]
+
+
 def fetch(config: dict) -> list[dict] | None:
     key = os.environ.get("RESCUEGROUPS_API_KEY", "").strip()
     if not key:
@@ -95,7 +109,7 @@ def fetch(config: dict) -> list[dict] | None:
     headers = {"Authorization": key, "Content-Type": "application/vnd.api+json"}
     listings: list[dict] = []
     for species_path, species in (("dogs", "dog"), ("cats", "cat")):
-        url = API.format(species=species_path) + f"?limit={cfg['limitPerSpecies']}&include=orgs&sort=animals.distance"
+        url = API.format(species=species_path) + f"?limit={cfg['fetchLimit']}&include=orgs&sort=animals.distance"
         payload = http.fetch_json(url, data=body, headers=headers)
-        listings += parse_response(payload, species)
+        listings += spread(parse_response(payload, species), cfg["perOrg"], cfg["perSpecies"])
     return listings

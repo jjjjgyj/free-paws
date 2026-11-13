@@ -33,7 +33,7 @@ site/data/listings.json         generated; committed only when listings change
 2. **RescueGroups key (optional):** request a free public API key at
    https://rescuegroups.org/services/adoptable-pet-data-api/ and save it under
    Settings -> Secrets and variables -> Actions as `RESCUEGROUPS_API_KEY`.
-   Until then that source is skipped and the page says so.
+   Until then that source is skipped and the page says so. `data/config.json` sets the search radius and how many pets to keep per rescue.
 3. Run the workflow once from the Actions tab, or wait for the daily run.
 
 ## Run it locally
@@ -63,8 +63,6 @@ python -m http.server -d site 8000     # then open http://localhost:8000
 
 - The PAWS NY source makes about 20 requests per run, one per second, to pages
   that the site's robots.txt allows. Please keep it at one run a day.
-- The RescueGroups adapter follows the published v5 documentation but has not
-  run against the live API yet, because that needs a key.
 - Size is the typical size for the breed when a listing gives no weight.
   Temperament is the poster's own wording. Meet the pet before you commit.
 - GitHub pauses scheduled workflows after 60 days without repository activity;
