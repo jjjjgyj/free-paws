@@ -202,60 +202,6 @@
  },
  {
   "activity": [
-   "walk"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Manhattan",
-  "breed": "Pit bull",
-  "commit": "weekly",
-  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
-  "cost": "free",
-  "costNote": "Free",
-  "daypart": [
-   "midday",
-   "evening"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-12",
-  "hood": "2nd Ave and E 112th St, New York",
-  "id": "paws-048bf48110a2",
-  "kind": "neighbor",
-  "lat": 40.7918,
-  "lon": -73.9448,
-  "org": "PAWS NY",
-  "petName": "Blue",
-  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
-  "requires": [
-   "orientation"
-  ],
-  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
-  "size": [
-   "medium",
-   "large"
-  ],
-  "source": "via Points of Light",
-  "sourceUpdated": "2025-09-30",
-  "species": [
-   "dog"
-  ],
-  "src": "paws",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "energetic"
-  ],
-  "title": "Blue",
-  "url": "https://engage.pointsoflight.org/opportunities/68-a46ed0f3-2aaf-3dec-db44-048bf48110a2",
-  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
- },
- {
-  "activity": [
    "walk",
    "visit"
   ],
@@ -772,6 +718,60 @@
   "title": "Phoenix",
   "url": "https://engage.pointsoflight.org/opportunities/68-43905ad7-f9d2-ab98-01c4-bc4d33fa8fe2",
   "when": "Mon, Tues, Wed, Thurs, Fri, Sat, Sun: 5:30pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Manhattan",
+  "breed": "Pit bull",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "2nd Ave and E 112th St, New York",
+  "id": "paws-c0f08093203b",
+  "kind": "neighbor",
+  "lat": 40.7918,
+  "lon": -73.9448,
+  "org": "PAWS NY",
+  "petName": "Blue",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
+  "size": [
+   "medium",
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly",
+   "energetic"
+  ],
+  "title": "Blue",
+  "url": "https://engage.pointsoflight.org/opportunities/68-a5413c41-af1f-1152-72ff-c0f08093203b",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
  },
  {
   "activity": [
@@ -2765,7 +2765,7 @@
   "requires": [
    "application"
   ],
-  "says": "Blue is a stunning petite pittie boy. At just 2 years old and 50lbs of compact goodness, his soulful eyes will stop you in your tracks. He loves the snow, his humans, rolling on his back, and playing…",
+  "says": "Blue is a stunning petite pittie boy.",
   "size": [
    "medium"
   ],
@@ -2777,9 +2777,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Blue",
   "url": "http://www.twentypawsrescue.com",
   "when": ""
@@ -2818,7 +2816,7 @@
   "requires": [
    "application"
   ],
-  "says": "Mowgli is a 5.5 -year-old mixed breed boy. His life was no less than a miracle as he was found by the KAW team after all his littermates were stoned to death. As the only surviving dog, this boy is a…",
+  "says": "Mowgli is a 5.5 -year-old mixed breed boy.",
   "size": [
    "medium"
   ],
@@ -2872,7 +2870,7 @@
   "requires": [
    "application"
   ],
-  "says": "Diva is a 6 year old bull terrier mix queen who just adores humans. Frankly, she is the most forgiving and precious girl. She truly enjoys human interaction. You would never believe she was once a…",
+  "says": "Diva is a 6 year old bull terrier mix queen who just adores humans.",
   "size": [
    "medium"
   ],
@@ -2926,7 +2924,7 @@
   "requires": [
    "application"
   ],
-  "says": "Cola is an approximately 6-7 year-old lab mix girl. Along with her brother, She was rescued by our partners at KAW during the pandemic lockdown in 2020. Something happened to her, we dont know what.…",
+  "says": "Cola is an approximately 6-7 year-old lab mix girl.",
   "size": [
    "medium"
   ],
@@ -2944,6 +2942,165 @@
   ],
   "title": "Cola",
   "url": "http://www.twentypawsrescue.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Brooklyn",
+  "id": "rescue-19156664",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Risotto",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/19156/19156664/93417433.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Sweet, gentle Risotto is a gorgeous, shy&nbsp;girl looking for the perfect home with&nbsp;a patient, experienced cat owner to help bring her out of her shell.",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-09-07",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "calm",
+   "friendly",
+   "trained"
+  ],
+  "title": "Risotto",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-20466525",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "Polly- I need a foster!",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/20466/20466525/104103699.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Polly!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-05",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Polly- I need a foster!",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=20466525",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair / Tuxedo (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-20715051",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "Nikki",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/20715/20715051/99023325.png?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Nikki!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly"
+  ],
+  "title": "Nikki",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=20715051",
   "when": ""
  },
  {
@@ -2980,8 +3137,10 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Coco, the sweetest lady around! Coco is an affectionate and sweet girl who loves to sit on the sofa, accompanying her person during quiet moments. Coco enjoys finding sunny spots to curl up and…",
-  "size": [],
+  "says": "Meet Coco, the sweetest lady around!",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-11-12",
   "species": [
@@ -2990,11 +3149,60 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Coco",
   "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-21300449",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "KC Sunshine",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21300/21300449/102693235.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet KC Sunshine!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "KC Sunshine",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21300449",
   "when": ""
  },
  {
@@ -3031,8 +3239,10 @@
   "requires": [
    "application"
   ],
-  "says": "Spider Man is the sweetest wild child who loves to play and roam. He loves exploring every nook and cranny to find his special place, but also is so happy cuddling with you on the couch (on his own…",
-  "size": [],
+  "says": "Spider Man is the sweetest wild child who loves to play and roam.",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-10-20",
   "species": [
@@ -3041,9 +3251,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "A boy called Spiderman",
   "url": "www.catcafebk.com",
   "when": ""
@@ -3055,7 +3263,269 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Brooklyn",
+  "id": "rescue-21566100",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Bubbles",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/21566/21566100/104076525.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Bubbles is sweet, gentle young male who is very shy and would be best in a home with someone who has a very outgoing cat or has the time and patience to do…",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-01",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Bubbles",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-21581427",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "Billie",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21581/21581427/102457763.png?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Billie!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly"
+  ],
+  "title": "Billie",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21581427",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Tuxedo / Mixed (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-21657658",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "Alice",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21657/21657658/101286404.png?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Looking for an entertaining, active, and endlessly playful companion?",
+  "size": [
+   "small"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly"
+  ],
+  "title": "Alice",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21657658",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-21731430",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "Bailey",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21731/21731430/101454526.png?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Bailey!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "calm",
+   "friendly"
+  ],
+  "title": "Bailey",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21731430",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Brooklyn",
+  "id": "rescue-21866446",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Avery",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/21866/21866446/103900948.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Avery is playful, curious, loves cuddling in the morning and evening before sleeping, enjoys a window and &nbsp;talks to flies.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-10-27",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Avery",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "NJ",
   "breed": "Poodle (Standard) / Pit Bull Terrier / Mixed (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -3082,7 +3552,7 @@
   "requires": [
    "application"
   ],
-  "says": "At just 9 months old, Chloe is a Standard Poodle/ Pit Bull&nbsp;mix with a heart full of love and a pair of gorgeous, one-of-a-kind eyes that will melt you on sight. She&rsquo;s the perfect mix of…",
+  "says": "At just 9 months old, Chloe is a Standard Poodle/ Pit Bull&nbsp;mix with a heart full of love and a pair of gorgeous, one-of-a-kind eyes that will melt you on…",
   "size": [
    "medium"
   ],
@@ -3136,8 +3606,10 @@
   "requires": [
    "application"
   ],
-  "says": "Lilly of the Valley&#39;s story highlights the many reasons why cats should stay indoors.&nbsp; Lilly&#39;s rescuer trapped her&nbsp;on a Bronx street where his mother-in-law lives in April 2024.…",
-  "size": [],
+  "says": "Lilly of the Valley&#39;s story highlights the many reasons why cats should stay indoors.&nbsp; Lilly&#39;s rescuer trapped her&nbsp;on a Bronx street where…",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2025-12-22",
   "species": [
@@ -3146,9 +3618,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Lilly of the Valley",
   "url": "www.catcafebk.com",
   "when": ""
@@ -3187,8 +3657,10 @@
   "requires": [
    "application"
   ],
-  "says": "Josie &amp; Luna (The Twins!) are a bonded pair of kittens looking for their forever home together. These sweet sisters were rescued from Sunset Park, Brooklyn where they were found seeking shelter…",
-  "size": [],
+  "says": "Josie &amp; Luna (The Twins!) are a bonded pair of kittens looking for their forever home together.",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-04-17",
   "species": [
@@ -3197,11 +3669,114 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Josie & Luna",
   "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-21927968",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "Jacklyn",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21927/21927968/102986813.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Jacklyn!",
+  "size": [
+   "small"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "calm",
+   "friendly"
+  ],
+  "title": "Jacklyn",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21927968",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-13",
+  "hood": "Bronx",
+  "id": "rescue-21982846",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "MooMoo",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21982/21982846/102027784.png?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet MooMoo!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "MooMoo",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21982846",
   "when": ""
  },
  {
@@ -3238,8 +3813,10 @@
   "requires": [
    "application"
   ],
-  "says": "Bronson is a companion of precise standards and clear boundaries. A vigilant shadow, he tracks your movement with quiet intent&mdash;greeting you at the threshold with a firm headbutt of welcome,…",
-  "size": [],
+  "says": "Bronson is a companion of precise standards and clear boundaries.",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-09-22",
   "species": [
@@ -3248,9 +3825,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Bronson",
   "url": "www.catcafebk.com",
   "when": ""
@@ -3260,10 +3835,10 @@
    "foster"
   ],
   "age": [
-   "young"
+   "senior"
   ],
   "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
+  "breed": "Domestic Short Hair (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
   "cost": "free",
@@ -3278,32 +3853,32 @@
   ],
   "firstSeen": "2026-11-13",
   "hood": "Brooklyn",
-  "id": "rescue-22222140",
+  "id": "rescue-22352296",
   "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Tyrian",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22222/22222140/102606105.jpg?width=100",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Rumors",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22352/22352296/102880098.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Tyrian, a grey tabby and white boy, is the happiest snugglebug in the world. He will purr the moment you start paying attention to him and give you unlimited kisses throughout the day.&nbsp; Tyrian…",
-  "size": [],
+  "says": "&nbsp; Hi, I&rsquo;m Rumors.",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-03-27",
+  "sourceUpdated": "2026-05-27",
   "species": [
    "cat"
   ],
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Tyrian",
-  "url": "www.catcafebk.com",
+  "temper": [],
+  "title": "Rumors",
+  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
  {
@@ -3313,313 +3888,7 @@
   "age": [
    "adult"
   ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22272998",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Club Sandwich",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22272/22272998/102694969.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Club Sandwich is an incredibly sweet and cuddly orange lady who would love to join your home! She likes to play, cuddle, sleep, and repeat! She just has one little issue, she has a high grade heart…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-23",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Club Sandwich",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22310088",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Maelle & Lune",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22310/22310088/102780527.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Maelle (tuxedo, F) and Lune (tabby, F) are two beautiful sisters, and they love each other to the moon and back!&nbsp; Having spent most of their life (prior to foster care) inside a crate, these two…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-06-16",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Maelle & Lune",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22320734",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Delcie",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22320/22320734/103767265.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Delcie is a chunky and spunky lady whose journey to lap cat status is 95% complete! She has sadly had a really rough time. She was abandoned in the snow on a bitterly cold day in February. The…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-28",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Delcie",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22335362",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Snowy River & River Dance",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22335/22335362/102840454.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Snow River and River Dance, two adorable kittens who are searching for a loving home where they can grow, play, and snuggle their way into your heart. Snow River is the confident social…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-03-27",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Snowy River & River Dance",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Long Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22345184",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Wanda",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22345/22345184/102862340.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Don&rsquo;t let her fierce-looking mane frighten you! A 15/10 fluffball, Wanda isn&rsquo;t afraid to ask for what she wants, yet is simultaneously shyest cat ever - she&rsquo;s a cowardly lion.…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-06-16",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Wanda",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22365983",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Hendrix",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22365/22365983/103486824.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Hendrix &ndash; A Gentle, Purring Playmate Who Loves Fetch! Hendrix is a sweet 3.5-year-old boy with a calm, loving personality and a big heart for people. He&rsquo;s incredibly social and truly…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-07-14",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Hendrix",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Husky (medium coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -3646,7 +3915,7 @@
   "requires": [
    "application"
   ],
-  "says": "ONLY AVAILABLE FOR ADOPTION IN NEW JERSEY AND LOCAL SURROUNDING AREAS!!! Ghost is a stunning 4-year-old Husky with a heart as big as his beautiful icy eyes. This sweet boy is fully vetted, healthy,…",
+  "says": "ONLY AVAILABLE FOR ADOPTION IN NEW JERSEY AND LOCAL SURROUNDING AREAS!!!",
   "size": [
    "large"
   ],
@@ -3659,8 +3928,7 @@
   "startRank": 3,
   "status": "open",
   "temper": [
-   "friendly",
-   "trained"
+   "friendly"
   ],
   "title": "Ghost",
   "url": "http://bfdaaa.com",
@@ -3700,8 +3968,10 @@
   "requires": [
    "application"
   ],
-  "says": "Lawrence is an absolute sweetheart with a big personality and an even bigger love for people! He&#39;s incredibly friendly, affectionate, and outgoing, and he wants to be part of the action. He LOVES…",
-  "size": [],
+  "says": "Lawrence is an absolute sweetheart with a big personality and an even bigger love for people!",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-10-09",
   "species": [
@@ -3710,9 +3980,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Lawrence",
   "url": "www.catcafebk.com",
   "when": ""
@@ -3722,10 +3990,10 @@
    "foster"
   ],
   "age": [
-   "adult"
+   "young"
   ],
   "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
+  "breed": "Domestic Short Hair (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
   "cost": "free",
@@ -3740,32 +4008,32 @@
   ],
   "firstSeen": "2026-11-13",
   "hood": "Brooklyn",
-  "id": "rescue-22496345",
+  "id": "rescue-22440285",
   "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "BB",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22496/22496345/103718079.jpg?width=100",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Marquis and Majesty",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22440/22440285/103818820.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "BB is an active young cat, who loves to play with her feline friends! She is a little bit shy at first, but once she warms up she is very friendly and social! She loves to play, especially with wand…",
-  "size": [],
+  "says": "Marquis (black with some white) is a sweet, curious, and playful little guy.",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-24",
+  "sourceUpdated": "2026-09-13",
   "species": [
    "cat"
   ],
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "BB",
-  "url": "www.catcafebk.com",
+  "temper": [],
+  "title": "Marquis and Majesty",
+  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
  {
@@ -3776,7 +4044,7 @@
    "adult"
   ],
   "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
+  "breed": "Domestic Medium Hair (medium coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
   "cost": "free",
@@ -3791,32 +4059,32 @@
   ],
   "firstSeen": "2026-11-13",
   "hood": "Brooklyn",
-  "id": "rescue-22499551",
+  "id": "rescue-22440289",
   "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Cruz",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22499/22499551/103203444.jpg?width=100",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Rain",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22440/22440289/103552315.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Cruz is a sweet and energetic little tuxedo. He&rsquo;s super friendly, loves to play and is great with his foster&#39;s two kitties. He&rsquo;s the best dishwasher and bathtub inspector; he makes…",
-  "size": [],
+  "says": "Rain is simply delightful!",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-22",
+  "sourceUpdated": "2026-10-13",
   "species": [
    "cat"
   ],
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Cruz",
-  "url": "www.catcafebk.com",
+  "temper": [],
+  "title": "Rain",
+  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
  {
@@ -3826,109 +4094,7 @@
   "age": [
    "young"
   ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22512064",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Action & Jackson",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22512/22512064/103669855.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Action and Jackson are a gorgeous pair of brown tabby kittens ready to fill your home with neverending fun, love, and purrs! These two spend their days chasing each other, wrestling over toys, and…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-24",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Action & Jackson",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22512719",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Wishy Washy",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22512/22512719/103683535.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Wishy Washy is a sweet and sensitive guy who might take a bit of time to warm up, but is the biggest sweetheart once he gets to know you. He loves pets and affection, and adores other cats. He loves…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-08-17",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Wishy Washy",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Golden Retriever / Poodle (Standard) / Mixed (medium coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -3955,7 +4121,7 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Jody . Jody is a 2&ndash;3-year-old Doodle girl with the sweetest soul and the gentlest heart. She can be a little shy when meeting new people or experiencing new things, but once she feels…",
+  "says": "Meet Jody .",
   "size": [
    "large"
   ],
@@ -3980,213 +4146,9 @@
    "foster"
   ],
   "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22576074",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Zip Tie",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22576/22576074/103365298.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "This guy is a stage five&nbsp;clinger! He starts out very shy, but once he warms up you&#39;ll forget what life was like without him!&nbsp;This little guy loves to follow his human from room to room,…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-06-23",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Zip Tie",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22615498",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Brit",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22615/22615498/103456381.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Brit is a hungry boy with a packed social calendar. After a morning of chasing his foster siblings, hunting ping pong balls, and going crazy with wand toys, he will never let you forget about his…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-07-15",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Brit",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22631676",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Plum",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22631/22631676/103492665.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Plum is best described as a &quot;Dog Cat.&quot; He is an absolutely amazing cat. Plum loves to play fetch with his human(s). He is very derpy, playful, and is like a little shadow. He will follow…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-07-15",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Plum",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
    "young"
   ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22637693",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "A pair called Oil & Hi Gloss",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22637/22637693/104015284.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "This adorable brother and sister pair are learning to love the good life.&nbsp; Oil (tabby, F) and Hi Gloss (black and white, M) can initially be a bit apprehensive of new people, but once…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-20",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "A pair called Oil & Hi Gloss",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "German Shepherd Dog (medium coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -4213,7 +4175,7 @@
   "requires": [
    "application"
   ],
-  "says": "Roscoe is a handsome 3-year-old German Shepherd with a heart as big as his beautiful smile. After losing the person he loved, he is patiently waiting for someone to give him the second chance he…",
+  "says": "Roscoe is a handsome 3-year-old German Shepherd with a heart as big as his beautiful smile.",
   "size": [
    "large"
   ],
@@ -4240,7 +4202,7 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Akita / American Bulldog / Mixed (medium coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -4267,7 +4229,7 @@
   "requires": [
    "application"
   ],
-  "says": "BIG GIRL. BIG HEART. BIG LOVE TO GIVE. Please meet Millie &mdash; and trust us, this beautiful girl is impossible not to love!&nbsp; At just about 10 months old, Millie is already a stunning 75-pound…",
+  "says": "BIG GIRL.",
   "size": [
    "large"
   ],
@@ -4295,7 +4257,7 @@
    "young"
   ],
   "borough": "Brooklyn",
-  "breed": "Domestic Medium Hair",
+  "breed": "Tiffany (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
   "cost": "free",
@@ -4310,185 +4272,32 @@
   ],
   "firstSeen": "2026-11-13",
   "hood": "Brooklyn",
-  "id": "rescue-22673054",
+  "id": "rescue-22844593",
   "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Id & Superego",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22673/22673054/103611704.jpg?width=100",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Bruno",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22844/22844593/103975760.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Over a century ago, Sigmund Freud introduced the world to the id, the ego, and the superego, thus conceiving of a structure for the human psyche. Today, we bring you the best thing out there for your…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-04",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Id & Superego",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
+  "says": "Meet Bruno!",
+  "size": [
    "any"
   ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22702956",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Sprite",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22702/22702956/103922667.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Sprite! This handsome big boy may look like a panther, but he&#39;s really Just A Baby&trade;️ This young guy is a complete and total love bug. He&#39;s eager to sit on you all day and distract…",
-  "size": [],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-02",
+  "sourceUpdated": "2026-11-03",
   "species": [
    "cat"
   ],
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Sprite",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22702961",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Aurora",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22702/22702961/103942133.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Aurora is a very friendly and social cat looking for her forever home. As a junior kitty, she is playful, curious, and loves being involved in whatever her humans are up to. She will happily follow…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Aurora",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22723032",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Felipe",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22723/22723032/103889580.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Felipe is a ridiculously cute little guy with a big personality. He&rsquo;s super friendly, loves people, and is always happy to get some attention, and give some back! Felipe had to have his tail…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-26",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Felipe",
-  "url": "www.catcafebk.com",
+  "temper": [],
+  "title": "Bruno",
+  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
  {
@@ -4498,1690 +4307,7 @@
   "age": [
    "young"
   ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22729340",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "A pair of girls called Hissy & Soarin' Eagle",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22729/22729340/103837277.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Hissy! This torbie girl, shockingly, started out as a very hissy kitten. Fast forward a few months and she&#39;s now the complete opposite. She runs at the sight of someone entering her home,…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-30",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "A pair of girls called Hissy & Soarin' Eagle",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22750315",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Limeade",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22750/22750315/103765737.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Limeade is a gentle, sensitive boy who needs a little extra time and love to come out of his shell. He is still learning to trust people but has a sweet and curious personality. He puts on a brave…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-01",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Limeade",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22757851",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Fitz",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22757/22757851/103779116.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Fitz is a very sweet, loving cat. He is also a very shy cat and takes time to warm up in new&nbsp; spaces. Once he adjusts, he&#39;s sure to be your best friend!&nbsp; At this point Fitz is still…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-05",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Fitz",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22757881",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Namaste & Shanti",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22757/22757881/103817941.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Namaste and Shanti! Both graduates of our hissy kitten camp, they are siblings and besties. Shanti is the tabby girl, and she is such a sweetie! And quite the little acrobat when the wand toy…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-13",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Namaste & Shanti",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22782759",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Bronx",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22782/22782759/103837309.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Bronx is a small black cat with an energetic and affectionate attitude. When you pet him he raises his paws in excitement, he is just so thrilled for the attention. He is constantly running around…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-16",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Bronx",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22782856",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Luelle",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22782/22782856/103837723.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Luelle is a very sweet torbie girl, she likes to sleep and gets bursts of energy in the morning and at night, before going back to lounging. She never sits on the couch and prefers a chair with a…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-16",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Luelle",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22787381",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Noodle",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22787/22787381/103971559.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Pasquale (a.k.a. Noodle) Pasquale is a sweet love bug. He wants to be wherever he can see you, and if it&#39;s been too long since his last pets, he&#39;ll clamber all over you, Zoom meeting or not.…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-13",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Noodle",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22793204",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Scotch Bonnet & Paprika",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22793/22793204/104038334.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Scotch and Paprika! Rescued on Coney Island, they&#39;ve started settling into the good life.&nbsp; Scotch and Paprika love to play and snuggle together, they get a lot of comfort from one…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-24",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Scotch Bonnet & Paprika",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22795173",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Theodore Friskies",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22795/22795173/103867478.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Theodore is a 1-year old brown tabby who would be the most perfect best friend! He is extremely sweet and curious. He loves meeting new people and would do great with kids. Theodore is always looking…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-22",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Theodore Friskies",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22812351",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Six Toes",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22812/22812351/103913048.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "This polydactyl prince is finally ready for the VIP life after many years struggling to survive on the street in Gowanus, Brooklyn, and impregnating many female cats. Six Toes, as named by one of his…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-02",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Six Toes",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22815453",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Banza & Rummo",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22815/22815453/103909518.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Rummo and Banza are two eleven-month-old playful boys who are just full of so much love and affection. They love to play with their toys (especially feather like toys), play with each other and find…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-30",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Banza & Rummo",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22815995",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Meatball",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22815/22815995/103923251.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meatball started off as an unsocialized cat found outside in rough condition, but over the past months in foster he has fully blossomed into a social and loving companion! It took him months to gain…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-02",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Meatball",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22821429",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Ancho & Serrano",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22821/22821429/103921016.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Ancho and Serrano - two sweet sisters with the tiniest bit of spice! Ancho (black with more white) is an opinionated little lady who loves to play, explore, and let everyone know who is really…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-02",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Ancho & Serrano",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22826838",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Bento Box",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22826/22826838/103933148.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Bento Box Blake! Shy at first, this sweet boy warms up quickly after a couple days. Bento needs a good hiding spot in order to get comfortable in new spaces, and even if he&rsquo;s not ready to…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-11",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Bento Box",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22833331",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Super Soaker & Galaxy Blaster",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22833/22833331/103948565.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Super Soaker and Galaxy Blaster are a brother sister pair joined at the hip. They can often be found napping together, wrestling, tussling over the same toy, grooming each other, hunting in sync, or…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-07",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Super Soaker & Galaxy Blaster",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22833426",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Moon",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22833/22833426/103948898.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Say hello to Moon! This little baby is a total sweetheart. When his foster&nbsp;first brought him to his temporary home, he was recovering from a cold and a little bit shy, but not even 24 hours…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-07",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Moon",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22833431",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Saint",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22833/22833431/103948914.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Saint!&nbsp; This young boy can initially be a shy guy, and a regular Harry Houdini! Might take a bit to come out of his shell, but can be very easily bribed with Churu or Temptations…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-07",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Saint",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22843141",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Banjo",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22843/22843141/103971642.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Banjo! A rare orange girl kitty!&nbsp; Banjo is a sweet, affectionate girl who&#39;s ready to be your shadow. She&#39;ll&nbsp;greet you at the door with meows and follow you from room to room…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-11",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Banjo",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22851247",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Soca",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22851/22851247/103991118.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Soca is the sweetest large angel!!&nbsp; She is a very chill, 4-year-old gal who wants to play (mostly while laying) and wants to curl&nbsp; up near you all day! She has a big purr that starts up the…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-15",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Soca",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22862436",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Misky",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22862/22862436/104015214.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Misky!&nbsp; Misky is a handsome tuxedo boy, approximately 2 years old, with beautiful golden eyes, the cutest white markings, and lots of love to give! He is incredibly affectionate and loves…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-27",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Misky",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22862483",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Sid",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22862/22862483/104015352.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Sid: the sweetest, most affectionate orange boy (with brains to match!) Sid spent his early days exploring the great outdoors, and now he&rsquo;s discovering all the good things indoor life has…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-20",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Sid",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22865442",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Mama Hellen",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22865/22865442/104022449.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Mama Hellen is a total sweetheart, and she went from hiding behind the toilet to sprawling on the couch, napping next to her people, and leaning into cheek scratches. She loves catching rays in…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-21",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Mama Hellen",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22865709",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Tito",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22865/22865709/104143120.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "&nbsp;&nbsp; &nbsp;Tito is the sweetest cat you could find. He loves cuddles, and pets - and he will sit there and demand them! He is a very vocal cat with a quiet gentle voice, and if he needs food…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Tito",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22865713",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Move Out",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22865/22865713/104022972.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Move Out is an adorable, gentle girl who will lean into pets once she gets to know and trust you. She particularly likes scratches under her chin. She has come such a long way, from hiding behind…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-23",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Move Out",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22869657",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Hubby",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22869/22869657/104032902.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Hubby is a total sweetheart who lives for cuddles and affection. He&rsquo;s extremely loving, a very calming presence, and he loves people. He gets along great with strangers and is very friendly.…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-23",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Hubby",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22869716",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Bean",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22869/22869716/104059179.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Bean! Bean is a sweet, approximately 2-year-old black cat looking for his forever home. Rescued from the streets hungry and scared, he&rsquo;s now safe in foster care and learning what it means…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-30",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Bean",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22870045",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Double Dutch",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22870/22870045/104033289.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "This sweet girl is a young mama who had kittens while she was still a kitten herself. Now it&rsquo;s her turn to be someone&rsquo;s baby! Double Dutch can be shy at first, but once she feels…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-23",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Double Dutch",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22870079",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Cinder & Ash",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22870/22870079/104033507.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Cinder &amp; Ash were born in the backyard of an apartment building. Some concerned residents rescued them and brought them to our rescue. A neighbor is currently fostering the two of them, and they…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-23",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Cinder & Ash",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22877983",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Cannoli & Studio",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22877/22877983/104053848.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Cannoli &amp; Studio&nbsp; Cannoli and Studio are a playful, affectionate seven-week-old bonded pair looking for a home together. Although they aren&rsquo;t siblings, they&rsquo;ve become a…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-27",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Cannoli & Studio",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22880202",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Affogato & Bomboloni",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22880/22880202/104059203.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Bomboloni is an adorable sweet and adventurous little kitten who loves to play, be pet and massaged, and is really chill as soon as she warms up to the environment. She is friendly and curious and…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-28",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Affogato & Bomboloni",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22880207",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Pagoda",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22880/22880207/104143170.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Pagoda is a sweet, gentle girl still learning to trust people. Having come from a hoarding situation, she&rsquo;s making steady progress coming out of her shell. She&rsquo;s most active and curious…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Pagoda",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22889224",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Hokusai & Pixie",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22889/22889224/104080424.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Hokusai is a sweet kitten who can be a tiny bit shy at first, but nothing lures her out faster than a fun wand toy or a jingly bell. Once she&#39;s comfortable, she&#39;s super playful and loves head…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-31",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Hokusai & Pixie",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22896184",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Aten",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22896/22896184/104097412.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Aten is a beautiful two year old&nbsp;male brown tabby with some hints of sunset on his fur. He can be shy at first, but nothing that some pets and good food can&rsquo;t quickly fix. Once he gets…",
-  "size": [],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-04",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "trained"
-  ],
-  "title": "Aten",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Hound / Mixed (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6208,7 +4334,7 @@
   "requires": [
    "application"
   ],
-  "says": "MEET ANN! &nbsp; Beautiful Ann is an 8-month-old, approximately 35 lb girl with a big personality and an even bigger heart! This sweet girl is affectionate, confident, curious, and ready to find a…",
+  "says": "MEET ANN!",
   "size": [],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-11-11",
@@ -6233,7 +4359,7 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Redbone Coonhound / Mixed (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6260,7 +4386,7 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Barbie! Searching for a partner who is as smart as she is sweet? This intuitive girl is the ultimate &#39;thinker&#39;s dog.&#39; She&rsquo;s looking for an adopter who appreciates an active…",
+  "says": "Meet Barbie!",
   "size": [
    "medium"
   ],
@@ -6288,7 +4414,7 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Flat-coated Retriever / Mixed (medium coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6315,7 +4441,7 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Bart! Bart is a 3-year-old Flat-Coated Retriever (62 lbs) who is up to date on all vaccines and currently working on building confidence through training. He has a sensitive nature and can be…",
+  "says": "Meet Bart!",
   "size": [
    "medium"
   ],
@@ -6327,9 +4453,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Bart (Foster or Adopter needed!)",
   "url": "http://peace4paws.org",
   "when": ""
@@ -6341,7 +4465,7 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Pit Bull Terrier / Mixed (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6368,7 +4492,7 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Bodhi, a male pit bull terrier mix with a huge heart and a true survivor&rsquo;s spirit. He is estimated to be between 1 and 3 years old, weighs about 45 pounds, and is full of life and love.…",
+  "says": "Meet Bodhi, a male pit bull terrier mix with a huge heart and a true survivor&rsquo;s spirit.",
   "size": [
    "medium"
   ],
@@ -6396,7 +4520,7 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Poodle (Standard) / Great Pyrenees / Mixed (medium coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6423,7 +4547,7 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Caesar! This handsome 2-year-old, 75-pound boy was found wandering in the country with no one to claim him. Thankfully, a kind neighbor contacted the shelter after a few days, and Caesar is now…",
+  "says": "Meet Caesar!",
   "size": [
    "medium"
   ],
@@ -6437,8 +4561,7 @@
   "status": "open",
   "temper": [
    "calm",
-   "friendly",
-   "trained"
+   "friendly"
   ],
   "title": "Caesar",
   "url": "http://peace4paws.org",
@@ -6451,7 +4574,7 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Terrier / Pointer / Mixed (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6478,7 +4601,7 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Coquito &mdash; your future best friend wrapped in a playful, lovable package Age: 2 years old Breed: Terrier / Pointer mix Weight: 40&ndash;50 lbs Coquito is a sweet, energetic young pup…",
+  "says": "Meet Coquito &mdash; your future best friend wrapped in a playful, lovable package Age: 2 years old Breed: Terrier / Pointer mix Weight: 40&ndash;50 lbs…",
   "size": [
    "medium"
   ],
@@ -6491,8 +4614,7 @@
   "startRank": 3,
   "status": "open",
   "temper": [
-   "energetic",
-   "trained"
+   "energetic"
   ],
   "title": "Coquito (Foster or Adopter needed!)",
   "url": "http://peace4paws.org",
@@ -6505,7 +4627,7 @@
   "age": [
    "adult"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Beagle / Mixed (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6532,7 +4654,7 @@
   "requires": [
    "application"
   ],
-  "says": "Meet Dewy! Dewy is an adorable 4-year-old Beagle mix weighing 26 pounds. He&rsquo;s a sweet, fun-sized guy with lots of love to give! Dewy is dog-friendly and great with kids. He&rsquo;s good on a…",
+  "says": "Meet Dewy!",
   "size": [
    "medium"
   ],
@@ -6560,7 +4682,7 @@
   "age": [
    "young"
   ],
-  "borough": "",
+  "borough": "NJ",
   "breed": "Hound / Mixed (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -6587,7 +4709,7 @@
   "requires": [
    "application"
   ],
-  "says": "Say hello to&nbsp;Fred, an adorable 8-month-old 36 lb boy who is ready to melt his way right into your heart &mdash; and your lap! This sweet boy is&nbsp;great with other dogs and people&nbsp;and has…",
+  "says": "Say hello to&nbsp;Fred, an adorable 8-month-old 36 lb boy who is ready to melt his way right into your heart &mdash; and your lap!",
   "size": [
    "medium"
   ],
@@ -6613,8 +4735,8 @@
   "age": [
    "young"
   ],
-  "borough": "",
-  "breed": "Australian Cattle Dog/Blue Heeler / Mixed (medium coat)",
+  "borough": "Brooklyn",
+  "breed": "Domestic Long Hair (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
   "cost": "free",
@@ -6628,414 +4750,33 @@
    "weekend"
   ],
   "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22898803",
+  "hood": "Brooklyn",
+  "id": "rescue-22910267",
   "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Moby (URGENT Foster or Adopter needed!)",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898803/104103416.jpg?width=100",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Aslan",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22910/22910267/104128990.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Meet Moby Moby is a 2 year, 8 month old Australian Cattle Dog weighing about 50 lbs. He is a neutered male who is both crate trained, leash trained and house trained, and he knows basic commands like…",
+  "says": "Meet your newest little shadow, Aslan!",
   "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "calm",
-   "friendly",
-   "trained"
-  ],
-  "title": "Moby (URGENT Foster or Adopter needed!)",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [],
-  "borough": "",
-  "breed": "Labrador Retriever / Australian Cattle Dog/Blue Heeler / Mixed",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
    "any"
   ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22898805",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Petey",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898805/104134498.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Petey! Petey is a handsome 3-year-old Lab/Heeler mix who recently arrived to New Jersey and is looking for a family to call his own! Petey absolutely adores children!! At 55 pounds, Petey is the…",
-  "size": [
-   "medium"
-  ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-10",
+  "sourceUpdated": "2026-11-11",
   "species": [
-   "dog"
+   "cat"
   ],
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "calm",
-   "friendly",
-   "trained"
-  ],
-  "title": "Petey",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "",
-  "breed": "Pointer / Mixed (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22898806",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Rubix (Foster or Adopter needed!)",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898806/104103442.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Rubix - a lovable, playful two-year-old mixed breed weighing 59&nbsp;lbs. Rescued from NYCACC, his past remains a mystery, but we believe he once had a special boy in his life whom he dearly…",
-  "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "trained"
-  ],
-  "title": "Rubix (Foster or Adopter needed!)",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "",
-  "breed": "Pit Bull Terrier / Mixed (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22898807",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Rune",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898807/104103448.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Rune, a 2-year-old male pit bull terrier mix with a gentle heart and a resilient spirit. He is brown and white, weighs about 60 pounds, and has a sturdy, lovable presence that quickly grows on…",
-  "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "calm",
-   "trained"
-  ],
-  "title": "Rune",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "",
-  "breed": "Rottweiler / Mixed (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22898808",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Snow",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898808/104103461.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Snow is anything but icy! The All-Terrain Sweetheart with a Spark!&nbsp; Meet Snow, a vibrant and affectionate 4&frac12;-year-old Rottweiler mix weighing about 85&ndash;90 pounds. This sweet girl has…",
-  "size": [
-   "large"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "trained"
-  ],
-  "title": "Snow",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "",
-  "breed": "Labrador Retriever / Mixed (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22898809",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Snuggles (Foster or Adopter needed!)",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898809/104103467.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Snuggles, the affectionate 3 year-old, 48-pound lab mix with a heart as big as her name suggests. Coming all the way from Mississippi, Snuggles spent her entire life thus far in a shelter until…",
-  "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "trained"
-  ],
-  "title": "Snuggles (Foster or Adopter needed!)",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "",
-  "breed": "Pit Bull Terrier / Terrier / Mixed (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22899450",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Jimmy",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22899/22899450/104105678.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Say hello to&nbsp;Jimmy, a handsome 4-year-old, 55 lb Pit Bull/Terrier mix with a big personality, an even bigger heart, and so much love to give! Unfortunately, Jimmy found himself looking for a new…",
-  "size": [
-   "large"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-06",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "trained"
-  ],
-  "title": "Jimmy",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "",
-  "breed": "Unknown breed (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22906480",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Bambi",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22906/22906480/104119888.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Say hello to&nbsp;Bambi, an adorable 1&ndash;2-year-old, 22 lb boy who&#39;s packing his bags in Kentucky and getting ready to make his way to New Jersey in search of his happily ever after! Bambi is…",
-  "size": [
-   "small"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-08",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "calm",
-   "friendly"
-  ],
-  "title": "Bambi",
-  "url": "http://peace4paws.org",
+  "temper": [],
+  "title": "Aslan",
+  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
  {
@@ -7072,8 +4813,10 @@
   "requires": [
    "application"
   ],
-  "says": "Initially a little shy, Queen Loach warmed up in her foster quickly and became quite the little explorer. She loves a game of hide and seek (you&rsquo;re the seeker, of course), closely related to…",
-  "size": [],
+  "says": "Initially a little shy, Queen Loach warmed up in her foster quickly and became quite the little explorer.",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-11-12",
   "species": [
@@ -7082,9 +4825,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Queen Loach",
   "url": "www.catcafebk.com",
   "when": ""
@@ -7123,8 +4864,10 @@
   "requires": [
    "application"
   ],
-  "says": "Harp and Sax are the cutest tabby duo with their white bibs and socks! They are a bonded pair that came from the same colony. Harp is the smaller male who settled into his foster home very quickly.…",
-  "size": [],
+  "says": "Harp and Sax are the cutest tabby duo with their white bibs and socks!",
+  "size": [
+   "any"
+  ],
   "source": "RescueGroups.org",
   "sourceUpdated": "2026-11-12",
   "species": [
@@ -7133,9 +4876,7 @@
   "src": "rescue",
   "startRank": 3,
   "status": "open",
-  "temper": [
-   "trained"
-  ],
+  "temper": [],
   "title": "Harp & Sax",
   "url": "www.catcafebk.com",
   "when": ""
