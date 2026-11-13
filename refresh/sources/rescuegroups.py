@@ -6,6 +6,7 @@ Docs: https://api.rescuegroups.org/v5/public/docs
 """
 from __future__ import annotations
 
+import html
 import os
 import re
 
@@ -39,7 +40,7 @@ def to_listing(animal: dict, species: str, included: dict) -> dict:
         org = included.get(("orgs", ref.get("id")), {})
     zip_code = str(org.get("postalcode") or "")[:5]
     # First sentence only: rescue write-ups often go on to describe how the animal was found.
-    description = " ".join((attrs.get("descriptionText") or "").split())
+    description = " ".join(html.unescape(attrs.get("descriptionText") or "").replace("\xa0", " ").split())
     description = re.split(r"(?<=[.!?])\s", description, maxsplit=1)[0]
     listing = {
         "id": f"rescue-{animal.get('id')}",
