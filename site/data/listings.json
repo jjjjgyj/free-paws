@@ -2736,6 +2736,57 @@
    "foster"
   ],
   "age": [
+   "adult"
+  ],
+  "borough": "Bronx",
+  "breed": "Tuxedo (medium coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-14",
+  "hood": "Bronx",
+  "id": "rescue-14782340",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "Van Dam",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/14782/14782340/67887422.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Van Dam!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Van Dam",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=14782340",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
    "young"
   ],
   "borough": "Brooklyn",
@@ -3261,6 +3312,57 @@
    "foster"
   ],
   "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-14",
+  "hood": "Brooklyn",
+  "id": "rescue-21520350",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "A girl called Munie",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/21520/21520350/101335382.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Munie is an adorable chonk with major RBF.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-13",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "A girl called Munie",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
    "young"
   ],
   "borough": "Brooklyn",
@@ -3733,108 +3835,6 @@
    "foster"
   ],
   "age": [
-   "young"
-  ],
-  "borough": "Bronx",
-  "breed": "Domestic Short Hair (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Bronx",
-  "id": "rescue-21982846",
-  "kind": "rescue",
-  "lat": 40.8729,
-  "lon": -73.8278,
-  "org": "New York City Cat Coalition",
-  "petName": "MooMoo",
-  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21982/21982846/102027784.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet MooMoo!",
-  "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-08-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "MooMoo",
-  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21982846",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Long Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22060356",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Bronson",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22060/22060356/103536717.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Bronson is a companion of precise standards and clear boundaries.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-22",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Bronson",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
    "senior"
   ],
   "borough": "Brooklyn",
@@ -3939,57 +3939,6 @@
    "foster"
   ],
   "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22423526",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Lawrence",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22423/22423526/103961437.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Lawrence is an absolute sweetheart with a big personality and an even bigger love for people!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-09",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Lawrence",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
    "young"
   ],
   "borough": "Brooklyn",
@@ -4044,7 +3993,7 @@
    "adult"
   ],
   "borough": "Brooklyn",
-  "breed": "Domestic Medium Hair (medium coat)",
+  "breed": "Domestic Short Hair (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
   "cost": "free",
@@ -4057,25 +4006,25 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-14",
   "hood": "Brooklyn",
-  "id": "rescue-22440289",
+  "id": "rescue-22486170",
   "kind": "rescue",
   "lat": 40.6011,
   "lon": -73.9475,
   "org": "Brooklyn Animal Action",
-  "petName": "Rain",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22440/22440289/103552315.jpg?width=100",
+  "petName": "Imelda May",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22486/22486170/104005349.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Rain is simply delightful!",
+  "says": "Imelda May is a calico-tabby stunner who is just getting started with her life indoors!",
   "size": [
    "any"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-13",
+  "sourceUpdated": "2026-10-20",
   "species": [
    "cat"
   ],
@@ -4083,8 +4032,161 @@
   "startRank": 3,
   "status": "open",
   "temper": [],
-  "title": "Rain",
+  "title": "Imelda May",
   "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-14",
+  "hood": "Brooklyn",
+  "id": "rescue-22496345",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "BB",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22496/22496345/103718079.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "BB is an active young cat, who loves to play with her feline friends!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-10-24",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "BB",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-14",
+  "hood": "Brooklyn",
+  "id": "rescue-22499551",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Cruz",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22499/22499551/103203444.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Cruz is a sweet and energetic little tuxedo.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-09-22",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Cruz",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-14",
+  "hood": "Brooklyn",
+  "id": "rescue-22512064",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Action & Jackson",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22512/22512064/103669855.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Action and Jackson are a gorgeous pair of brown tabby kittens ready to fill your home with neverending fun, love, and purrs!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-10-24",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Action & Jackson",
+  "url": "www.catcafebk.com",
   "when": ""
  },
  {
@@ -4254,10 +4356,10 @@
    "foster"
   ],
   "age": [
-   "young"
+   "adult"
   ],
   "borough": "Brooklyn",
-  "breed": "Tiffany (short coat)",
+  "breed": "Siamese (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
   "cost": "free",
@@ -4270,25 +4372,25 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-14",
   "hood": "Brooklyn",
-  "id": "rescue-22844593",
+  "id": "rescue-22682392",
   "kind": "rescue",
   "lat": 40.6011,
   "lon": -73.9475,
   "org": "Brooklyn Animal Action",
-  "petName": "Bruno",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22844/22844593/103975760.jpg?width=100",
+  "petName": "Leo",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22682/22682392/103609681.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Meet Bruno!",
+  "says": "Meet Leo!",
   "size": [
    "any"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-03",
+  "sourceUpdated": "2026-11-10",
   "species": [
    "cat"
   ],
@@ -4296,7 +4398,58 @@
   "startRank": 3,
   "status": "open",
   "temper": [],
-  "title": "Bruno",
+  "title": "Leo",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-14",
+  "hood": "Brooklyn",
+  "id": "rescue-22689850",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Mercedes",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22689/22689850/103657826.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Mercedes is an absolute doll.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-10-11",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Mercedes",
   "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
@@ -4726,159 +4879,6 @@
   ],
   "title": "Fred",
   "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Long Hair (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22910267",
-  "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Aslan",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22910/22910267/104128990.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet your newest little shadow, Aslan!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-11",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Aslan",
-  "url": "http://www.brooklynanimalaction.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22915741",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Queen Loach",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22915/22915741/104145276.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Initially a little shy, Queen Loach warmed up in her foster quickly and became quite the little explorer.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Queen Loach",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Brooklyn",
-  "id": "rescue-22916411",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Harp & Sax",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22916/22916411/104145741.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Harp and Sax are the cutest tabby duo with their white bibs and socks!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Harp & Sax",
-  "url": "www.catcafebk.com",
   "when": ""
  }
 ]
