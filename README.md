@@ -1,8 +1,8 @@
 # Free Paws
 
-A public, volunteer-run site that gathers open requests from New Yorkers,
-shelters and rescues who need a hand with a dog or cat: walks for neighbors who
-can't manage them, cat visits, shelter shifts and foster homes. It has search,
+A public, volunteer-run site for people who want to walk a dog and don't have
+one. It gathers the walks that New York shelters, rescues and neighbors need
+help with. Cat visits, fostering and pet cafes are one click away. It has search,
 filters, categories and a map. It is independent of the organizations listed.
 
 The listings refresh themselves once a day. No AI is involved in a refresh: a

@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Free Paws: help a pet and a neighbor in need</title>
-<meta name="description" content="Find a pet near you in New York City whose person needs help: dog walks for neighbors who can't manage them, cat visits, shelter shifts and foster homes. Most take an hour a week and cost nothing.">
-<meta property="og:title" content="Free Paws: help a pet and a neighbor in need">
-<meta property="og:description" content="Open requests from New Yorkers and shelters who need a hand with a dog or cat, gathered in one place and refreshed daily.">
+<title>Free Paws: walk a dog that needs one</title>
+<meta name="description" content="No dog of your own? Shelters, rescues and neighbors across New York City need people to walk theirs. Find a walk near you, from a drop-in today to a regular weekly dog.">
+<meta property="og:title" content="Free Paws: walk a dog that needs one">
+<meta property="og:description" content="Dog walks that shelters, rescues and neighbors in NYC need help with, gathered in one place and refreshed daily.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -112,11 +112,26 @@ input::placeholder{color:var(--muted);opacity:.75}
 :root[data-look="atelier"] .cat{border:1px solid var(--line);background:var(--surface);padding:20px 22px}
 :root[data-look="atelier"] .cat[aria-pressed=true]{border-color:var(--accent)}
 
-.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:24px 44px;padding:30px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:26px 40px;padding:36px 0 0;border-top:1px solid var(--line);scroll-margin-top:20px}
 .how>div{display:flex;flex-direction:column;gap:6px}
-.how h2{font-size:1.3rem}
+.how .how-head{grid-column:1/-1;gap:10px}
+.how h2{font-size:1.8rem}
+.how h3{font-size:1.2rem}
+.how a,.lede a{color:var(--accent);text-underline-offset:4px;text-decoration-thickness:1px}
+.how .how-head p{max-width:64ch}
+.paths-zone{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;width:100%}
+.path{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:max(var(--radius),4px);padding:22px 24px 20px;cursor:pointer;display:flex;flex-direction:column;gap:8px;min-height:150px}
+.path:hover{border-color:var(--ink)}
+.path[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.path b{font-family:var(--display);font-weight:var(--display-weight);font-style:var(--display-style);font-size:1.5rem;line-height:1.2}
+.path small{font-size:.92rem;color:var(--muted);line-height:1.45}
+.path[aria-pressed=true] small,.path[aria-pressed=true] .n{color:inherit;opacity:.8}
+.path .n{margin-top:auto;font-size:.85rem;color:var(--accent);font-variant-numeric:tabular-nums}
+:root[data-look="hygge"] .path{border:0}
+:root[data-look="hygge"] .path[aria-pressed=true]{background:var(--accent);color:var(--on-accent)}
 .how p{margin:0;color:var(--muted);font-size:.95rem;max-width:36ch}
-:root[data-look="hygge"] .how{border:0;background:var(--surface);border-radius:var(--radius);padding:30px}
+:root[data-look="hygge"] .how{border:0;background:var(--surface);border-radius:var(--radius);padding:32px}
 .results{display:flex;flex-direction:column;gap:18px}
 .bar{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:baseline;justify-content:space-between}
 .count{font-family:var(--display);font-style:var(--display-style);font-weight:var(--display-weight);font-size:1.3rem;font-variant-numeric:tabular-nums}
@@ -229,9 +244,9 @@ footer a{color:inherit;text-underline-offset:3px}
   </svg>
   <header class="mast">
     <div class="mast-text">
-      <div class="brand"><i aria-hidden="true"></i>Free Paws · Neighbors helping pets and their people</div>
-      <h1>A pet nearby needs a hand. So does their person.</h1>
-      <p class="lede">Across New York, older and unwell neighbors struggle to walk the dogs they love, shelter animals wait for company, and rescues look for foster homes. Free Paws gathers their open requests in one place, refreshed every morning. Most ask for about an hour a week, and volunteering costs nothing.</p>
+      <div class="brand"><i aria-hidden="true"></i>Free Paws · Walk a dog, help a neighbor</div>
+      <h1>Walk a dog that needs one.</h1>
+      <p class="lede">No dog of your own? Across New York, shelter dogs wait for someone to take them out, and older or unwell neighbors can't manage the walks their dogs need. Pick a walk near you: drop in today, or get to know one dog every week. <a href="#first-walk">First time? Read this.</a></p>
     </div>
     <svg class="pets hero-pets" viewBox="0 0 400 232" role="img" aria-label="A dog and a cat sitting side by side, seen from behind">
       <use href="#pet-dog" x="30" y="12" width="200" height="200"/>
@@ -265,8 +280,8 @@ footer a{color:inherit;text-underline-offset:3px}
 
     <section class="panel" id="p-search" role="tabpanel" aria-labelledby="tab-search">
       <div class="field">
-        <label class="lab" for="q">How would you like to help</label>
-        <input type="search" id="q" placeholder="walk a small dog, cat feeding, foster, Astoria">
+        <label class="lab" for="q">Find a walk</label>
+        <input type="search" id="q" placeholder="small dog, husky, weekend, Astoria">
       </div>
       <div class="quick" id="quick" aria-label="Quick picks"></div>
     </section>
@@ -285,10 +300,9 @@ footer a{color:inherit;text-underline-offset:3px}
     </section>
   </div>
 
-  <section class="how" aria-label="How it works">
-    <div><span class="lab">1</span><h2>Find a request near you</h2><p>Each one is real: a neighbor who can't manage the walks, a shelter short of hands, a rescue looking for fosters.</p></div>
-    <div><span class="lab">2</span><h2>Sign up with that group</h2><p>They do the matching and the introductions. Many ask for a short orientation first, for the pet's safety and yours.</p></div>
-    <div><span class="lab">3</span><h2>Show up</h2><p>An hour a week keeps a pet healthy and, often, keeps them at home with the person who loves them.</p></div>
+  <section class="paths-zone" aria-label="Ways to start">
+    <div class="paths" id="paths"></div>
+    <button class="link" id="scope" type="button"></button>
   </section>
 
   <section class="results" aria-live="polite">
@@ -310,6 +324,14 @@ footer a{color:inherit;text-underline-offset:3px}
       <p class="hint" id="mapnote"></p>
     </div>
     <div class="board" id="board"></div>
+  </section>
+
+  <section class="how" id="first-walk" aria-labelledby="fw-h">
+    <div class="how-head"><h2 id="fw-h">Your first shelter walk</h2><p>What to expect when you drop in to walk a dog. These follow <a href="https://www.nyanimalrescue.org/volunteer" target="_blank" rel="noopener noreferrer">Sean Casey Animal Rescue's walking rules</a>; every shelter has its own, so ask at the desk.</p></div>
+    <div><span class="lab">Bring</span><h3>A charged phone and ID</h3><p>Keep the ringer on so staff can reach you. Some shelters also ask for photo ID and proof of address.</p></div>
+    <div><span class="lab">At the desk</span><h3>A short form, then a dog</h3><p>You fill in a walker form in person. Staff choose a dog to suit you, so say if you are new or want a small or calm one.</p></div>
+    <div><span class="lab">On the walk</span><h3>Short leash, your dog only</h3><p>Wrap the leash around your hand and never let go, tie the dog up or leave them. Keep clear of other dogs, stay by the curb and pick up after them.</p></div>
+    <div><span class="lab">How long</span><h3>15 to 45 minutes</h3><p>Come back within the shelter's window and before closing. Ask staff anything before you set off.</p></div>
   </section>
 
   <section class="offer">
@@ -356,22 +378,25 @@ var GROUPS=[
  {key:"cost",label:"Money",opts:[["free","Volunteer, no cost"],["fee","You pay a fee"],["paid","You get paid"]]}
 ];
 var TOGGLES=[["hidePaused","Hide paused programs"],["namedOnly","Only a specific, named pet"],["noOrientation","No orientation or application first"],["savedOnly","Only ones I saved"]];
-var QUICK=[["species","dog","Dogs"],["species","cat","Cats"],["size","small","Small"],["temper","gentle","Gentle"],["activity","walk","Walks"],["activity","cuddle","Cuddles"],["commit","oneoff","One-off"],["cost","free","Free only"]];
+var QUICK=[["size","small","Small dogs"],["size","large","Large dogs"],["temper","gentle","Gentle"],["commit","oneoff","One-off"],["commit","weekly","Every week"],["days","weekend","Weekends"],["cost","free","Free only"]];
+function isWalk(x){return has(x.species,"dog")&&(has(x.activity,"walk")||has(x.activity,"daytrip"));}
+// w:true categories are dog walks; the rest only show once "other ways to help" is switched on.
 var CATS=[
- {id:"walk-neighbor",t:"Walk a dog for a neighbor",d:"For owners who are older, ill or disabled and can't manage the walks",f:function(x){return x.kind==="neighbor"&&has(x.species,"dog");}},
+ {id:"today",w:true,t:"Walk a dog today",d:"Drop in or book a slot. No training or application first.",f:function(x){return isWalk(x)&&!needsPrep(x)&&x.status!=="paused"&&x.cost==="free";}},
+ {id:"walk-neighbor",w:true,t:"Walk a neighbor's dog every week",d:"A named dog whose owner is older, ill or disabled. One-hour online orientation first.",f:function(x){return x.kind==="neighbor"&&has(x.species,"dog");}},
+ {id:"shelter-walk",w:true,t:"Walk dogs at a shelter",d:"Regular volunteer shifts, after an application and training.",f:function(x){return x.kind==="shelter"&&isWalk(x)&&needsPrep(x);}},
+ {id:"day-out",w:true,t:"Take a shelter dog out for the day",d:"A break from the kennel, from an hour to a full day",f:function(x){return has(x.activity,"daytrip");}},
+ {id:"small-gentle",w:true,t:"Small or gentle dogs",d:"A calm first match if you are new to this",f:function(x){return has(x.size,"small")||has(x.temper,"gentle")||has(x.temper,"calm");}},
+ {id:"paid",w:true,t:"Get paid to walk",d:"Dog-walking jobs and apps where owners pay you",f:function(x){return x.cost==="paid";}},
  {id:"visit-cat",t:"Look in on a neighbor's cat",d:"Feeding and litter visits for people who can't do them alone",f:function(x){return x.kind==="neighbor"&&has(x.species,"cat");}},
- {id:"day-out",t:"Give a shelter dog a day out",d:"A break from the kennel, from an hour to a full day",f:function(x){return has(x.activity,"daytrip");}},
- {id:"shelter",t:"Volunteer at a shelter",d:"Regular shifts walking dogs and keeping cats company",f:function(x){return x.kind==="shelter"&&!has(x.activity,"daytrip")&&!has(x.activity,"foster");}},
+ {id:"shelter-cats",t:"Keep shelter cats company",d:"Socializing shifts at shelters and rescues",f:function(x){return x.kind==="shelter"&&has(x.species,"cat")&&has(x.activity,"cuddle");}},
  {id:"foster",t:"Foster for a while",d:"Give a pet a home for days or weeks while they wait",f:function(x){return has(x.activity,"foster");}},
- {id:"no-strings",t:"Start this week",d:"No orientation or application to complete first",f:function(x){return !needsPrep(x);}},
- {id:"small-gentle",t:"Small or gentle pets",d:"A calm first match if you are new to this",f:function(x){return has(x.size,"small")||has(x.temper,"gentle")||has(x.temper,"calm");}},
- {id:"cat-rooms",t:"Visit a pet café",d:"Cat cafés where your fee supports rescue cats, and a dog café",f:function(x){return x.kind==="cafe";}},
- {id:"platforms",t:"Paid work and platforms",d:"Dog-walking jobs and sites that pair you with owners",f:function(x){return x.kind==="platform"||x.kind==="job";}}
+ {id:"cat-rooms",t:"Visit a pet café",d:"Cat cafés where your fee supports rescue cats, and a dog café",f:function(x){return x.kind==="cafe";}}
 ];
 var KIND={neighbor:"Neighbor in need",rescue:"Rescue pet, needs a foster",shelter:"Shelter",cafe:"Pet café",platform:"Platform",job:"Paid job"};
 var LABEL={};GROUPS.forEach(function(g){g.opts.forEach(function(o){LABEL[g.key+":"+o[0]]=o[1];});});
 
-var S={items:[],loaded:false,slow:false,err:"",meta:null,view:"search",q:"",f:{},t:{hidePaused:true,namedOnly:false,noOrientation:false,savedOnly:false},cat:"",sort:"near",place:"",origin:null,radius:999,saved:{}};
+var S={items:[],loaded:false,slow:false,err:"",meta:null,view:"search",q:"",f:{},t:{hidePaused:true,namedOnly:false,noOrientation:false,savedOnly:false},cat:"",scope:"walk",sort:"near",place:"",origin:null,radius:999,saved:{}};
 function $(id){return document.getElementById(id);}
 function has(a,v){return Array.isArray(a)&&a.indexOf(v)>=0;}
 function arr(a){return Array.isArray(a)?a:[];}
@@ -408,6 +433,7 @@ function passes(x,skipCat){
   if(S.t.noOrientation&&needsPrep(x))return false;
   if(S.t.savedOnly&&!S.saved[x.id])return false;
   if(S.radius<999&&S.origin){var d=dist(x);if(d===null||d>S.radius)return false;}
+  if(S.scope==="walk"&&!isWalk(x))return false;
   if(!skipCat&&S.cat){var c=CATS.filter(function(c){return c.id===S.cat;})[0];if(c&&!c.f(x))return false;}
   return true;
 }
@@ -508,8 +534,12 @@ function render(){
   if($("q2")!==document.activeElement)$("q2").value=S.q;
   $("sort").value=S.sort;$("radius").value=String(S.radius);
 
-  $("cats").innerHTML=CATS.map(function(c){var n=S.items.filter(function(x){return passes(x,true)&&c.f(x);}).length;
-    return '<button class="cat" type="button" data-cat="'+c.id+'" aria-pressed="'+(S.cat===c.id?"true":"false")+'"><b>'+esc(c.t)+'</b><small>'+esc(c.d)+'</small><span class="n">'+n+(n===1?" request":" requests")+'</span></button>';}).join("");
+  var shown=CATS.filter(function(c){return S.scope==="all"||c.w;});
+  function catBtn(c,cls){var n=S.items.filter(function(x){return passes(x,true)&&c.f(x);}).length;
+    return '<button class="'+cls+'" type="button" data-cat="'+c.id+'" aria-pressed="'+(S.cat===c.id?"true":"false")+'"><b>'+esc(c.t)+'</b><small>'+esc(c.d)+'</small><span class="n">'+n+(cls==="path"?(n===1?" walk":" walks"):(n===1?" request":" requests"))+'</span></button>';}
+  $("paths").innerHTML=CATS.slice(0,3).map(function(c){return catBtn(c,"path");}).join("");
+  $("scope").textContent=S.scope==="walk"?"Also show cats, fostering and pet caf\u00e9s":"Back to dog walks only";
+  $("cats").innerHTML=shown.map(function(c){return catBtn(c,"cat");}).join("");
 
   var hint=$("lochint");hint.className="hint";
   if(S.origin){hint.textContent="Measuring from "+S.place+".";}
@@ -533,9 +563,9 @@ function render(){
   list.sort(function(a,b){
     if(S.sort==="quick"){return (a.startRank||9)-(b.startRank||9);}
     if(S.sort==="fresh"){return String(b.sourceUpdated||"").localeCompare(String(a.sourceUpdated||""));}
-    var da=dist(a),db=dist(b);if(da===null&&db===null)return String(a.title).localeCompare(String(b.title));if(da===null)return 1;if(db===null)return -1;return da-db;
+    var da=dist(a),db=dist(b);if(da===null&&db===null)return (a.startRank||9)-(b.startRank||9)||String(a.title).localeCompare(String(b.title));if(da===null)return 1;if(db===null)return -1;return da-db;
   });
-  count.textContent=list.length+" of "+S.items.length+(list.length===1?" way to help":" ways to help")+(S.slow?" (may be out of date)":"");
+  count.textContent=list.length+(S.scope==="walk"?(list.length===1?" dog walk":" dog walks"):(list.length===1?" way to help":" ways to help"))+(S.slow?" (may be out of date)":"");
   drawMap(list);
   board.innerHTML=list.length?list.map(card).join(""):'<div class="empty">Nothing matches all of that. Widen the distance or clear a filter.</div>';
   $("reset").hidden=activeCount()===0;
@@ -561,7 +591,9 @@ document.addEventListener("click",function(e){
   else if(b.dataset.look){setLook(b.dataset.look);store("fp-look",b.dataset.look);}
   else if(b.dataset.view){S.view=b.dataset.view;try{location.hash=S.view;}catch(x){}render();}
   else if(b.dataset.g){toggle(b.dataset.g,b.dataset.v);}
-  else if(b.dataset.cat){S.cat=S.cat===b.dataset.cat?"":b.dataset.cat;render();}
+  else if(b.dataset.cat){S.cat=S.cat===b.dataset.cat?"":b.dataset.cat;render();
+    if(S.cat&&b.classList.contains("path"))$("count").scrollIntoView({behavior:"smooth",block:"start"});}
+  else if(b.id==="scope"){S.scope=S.scope==="walk"?"all":"walk";var cur=CATS.filter(function(c){return c.id===S.cat;})[0];if(S.scope==="walk"&&cur&&!cur.w)S.cat="";render();}
   else if(b.dataset.save){var id=b.dataset.save;if(S.saved[id])delete S.saved[id];else S.saved[id]=1;store("bp-saved",S.saved);render();}
   else if(b.id==="reset"){S.q="";S.f={};S.cat="";S.t.namedOnly=false;S.t.noOrientation=false;S.t.savedOnly=false;$("q").value="";$("q2").value="";render();}
   else if(b.id==="copy"){var ta=$("offer"),out=$("copied");
