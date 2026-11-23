@@ -202,6 +202,60 @@
  },
  {
   "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Manhattan",
+  "breed": "Pit bull",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-23",
+  "hood": "2nd Ave and E 112th St, New York",
+  "id": "paws-048bf48110a2",
+  "kind": "neighbor",
+  "lat": 40.7918,
+  "lon": -73.9448,
+  "org": "PAWS NY",
+  "petName": "Blue",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
+  "size": [
+   "medium",
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-30",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly",
+   "energetic"
+  ],
+  "title": "Blue",
+  "url": "https://engage.pointsoflight.org/opportunities/68-a46ed0f3-2aaf-3dec-db44-048bf48110a2",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
+ },
+ {
+  "activity": [
    "walk",
    "visit"
   ],
@@ -718,60 +772,6 @@
   "title": "Phoenix",
   "url": "https://engage.pointsoflight.org/opportunities/68-43905ad7-f9d2-ab98-01c4-bc4d33fa8fe2",
   "when": "Mon, Tues, Wed, Thurs, Fri, Sat, Sun: 5:30pm to 7pm"
- },
- {
-  "activity": [
-   "walk"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Manhattan",
-  "breed": "Pit bull",
-  "commit": "weekly",
-  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
-  "cost": "free",
-  "costNote": "Free",
-  "daypart": [
-   "midday",
-   "evening"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-22",
-  "hood": "2nd Ave and E 112th St, New York",
-  "id": "paws-c0f08093203b",
-  "kind": "neighbor",
-  "lat": 40.7918,
-  "lon": -73.9448,
-  "org": "PAWS NY",
-  "petName": "Blue",
-  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
-  "requires": [
-   "orientation"
-  ],
-  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
-  "size": [
-   "medium",
-   "large"
-  ],
-  "source": "via Points of Light",
-  "sourceUpdated": "2025-09-09",
-  "species": [
-   "dog"
-  ],
-  "src": "paws",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "energetic"
-  ],
-  "title": "Blue",
-  "url": "https://engage.pointsoflight.org/opportunities/68-a5413c41-af1f-1152-72ff-c0f08093203b",
-  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
  },
  {
   "activity": [
@@ -2736,57 +2736,6 @@
    "foster"
   ],
   "age": [
-   "adult"
-  ],
-  "borough": "Bronx",
-  "breed": "Tuxedo (medium coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-19",
-  "hood": "Bronx",
-  "id": "rescue-14782340",
-  "kind": "rescue",
-  "lat": 40.8729,
-  "lon": -73.8278,
-  "org": "New York City Cat Coalition",
-  "petName": "Van Dam",
-  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/14782/14782340/67887422.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Van Dam!",
-  "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-08-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Van Dam",
-  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=14782340",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
    "young"
   ],
   "borough": "Brooklyn",
@@ -3576,6 +3525,57 @@
   "age": [
    "young"
   ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-23",
+  "hood": "Brooklyn",
+  "id": "rescue-21866446",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Avery",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/21866/21866446/103900948.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Avery is playful, curious, loves cuddling in the morning and evening before sleeping, enjoys a window and talks to flies.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-10-27",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Avery",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
   "borough": "NJ",
   "breed": "Poodle (Standard) / Pit Bull Terrier / Mixed (short coat)",
   "commit": "flexible",
@@ -3784,6 +3784,57 @@
    "foster"
   ],
   "age": [
+   "young"
+  ],
+  "borough": "Bronx",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-23",
+  "hood": "Bronx",
+  "id": "rescue-21982846",
+  "kind": "rescue",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "MooMoo",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21982/21982846/102027784.png?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet MooMoo!",
+  "size": [
+   "medium"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-08-12",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "MooMoo",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21982846",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
    "adult"
   ],
   "borough": "Brooklyn",
@@ -3902,25 +3953,25 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-21",
+  "firstSeen": "2026-11-23",
   "hood": "Brooklyn",
-  "id": "rescue-22272998",
+  "id": "rescue-22310088",
   "kind": "rescue",
   "lat": 40.6451,
   "lon": -73.945,
   "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Club Sandwich",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22272/22272998/102694969.jpg?width=100",
+  "petName": "Maelle & Lune",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22310/22310088/102780527.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Club Sandwich is an incredibly sweet and cuddly orange lady who would love to join your home!",
+  "says": "Maelle (tuxedo, F) and Lune (tabby, F) are two beautiful sisters, and they love each other to the moon and back!",
   "size": [
    "any"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-23",
+  "sourceUpdated": "2026-06-16",
   "species": [
    "cat"
   ],
@@ -3928,7 +3979,7 @@
   "startRank": 3,
   "status": "open",
   "temper": [],
-  "title": "Club Sandwich",
+  "title": "Maelle & Lune",
   "url": "www.catcafebk.com",
   "when": ""
  },
@@ -4353,57 +4404,6 @@
    "foster"
   ],
   "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Siamese (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-21",
-  "hood": "Brooklyn",
-  "id": "rescue-22682392",
-  "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Leo",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22682/22682392/103609681.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Leo!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-10",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Leo",
-  "url": "http://www.brooklynanimalaction.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
    "young"
   ],
   "borough": "NJ",
@@ -4420,15 +4420,15 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-23",
   "hood": "Westwood",
-  "id": "rescue-22898793",
+  "id": "rescue-22939567",
   "kind": "rescue",
   "lat": 41.0092,
   "lon": -74.0041,
   "org": "Peace 4 Paws Inc.",
   "petName": "Ann",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898793/104103350.jpg?width=100",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939567/104198222.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
@@ -4436,7 +4436,7 @@
   "says": "MEET ANN!",
   "size": [],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-11",
+  "sourceUpdated": "2026-11-22",
   "species": [
    "dog"
   ],
@@ -4448,6 +4448,60 @@
    "trained"
   ],
   "title": "Ann",
+  "url": "http://peace4paws.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "NJ",
+  "breed": "Unknown breed (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-23",
+  "hood": "Westwood",
+  "id": "rescue-22939568",
+  "kind": "rescue",
+  "lat": 41.0092,
+  "lon": -74.0041,
+  "org": "Peace 4 Paws Inc.",
+  "petName": "Bambi",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939568/104198232.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Say hello to Bambi, an adorable 1–2-year-old, 22 lb boy who's packing his bags in Kentucky and getting ready to make his way to New Jersey in search of his…",
+  "size": [
+   "small"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-22",
+  "species": [
+   "dog"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "calm",
+   "friendly"
+  ],
+  "title": "Bambi",
   "url": "http://peace4paws.org",
   "when": ""
  },
@@ -4472,15 +4526,15 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-23",
   "hood": "Westwood",
-  "id": "rescue-22898794",
+  "id": "rescue-22939569",
   "kind": "rescue",
   "lat": 41.0092,
   "lon": -74.0041,
   "org": "Peace 4 Paws Inc.",
   "petName": "Barbie",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898794/104103359.jpg?width=100",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939569/104198256.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
@@ -4490,7 +4544,7 @@
    "medium"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
+  "sourceUpdated": "2026-11-22",
   "species": [
    "dog"
   ],
@@ -4527,15 +4581,15 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-23",
   "hood": "Westwood",
-  "id": "rescue-22898795",
+  "id": "rescue-22939572",
   "kind": "rescue",
   "lat": 41.0092,
   "lon": -74.0041,
   "org": "Peace 4 Paws Inc.",
   "petName": "Bart (Foster or Adopter needed!)",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898795/104103371.jpg?width=100",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939572/104198289.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
@@ -4545,7 +4599,7 @@
    "medium"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
+  "sourceUpdated": "2026-11-22",
   "species": [
    "dog"
   ],
@@ -4578,15 +4632,15 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-23",
   "hood": "Westwood",
-  "id": "rescue-22898797",
+  "id": "rescue-22939574",
   "kind": "rescue",
   "lat": 41.0092,
   "lon": -74.0041,
   "org": "Peace 4 Paws Inc.",
   "petName": "Bodhi (Foster or Adopter needed!)",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898797/104103383.jpg?width=100",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939574/104198320.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
@@ -4596,7 +4650,7 @@
    "medium"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-16",
+  "sourceUpdated": "2026-11-22",
   "species": [
    "dog"
   ],
@@ -4633,15 +4687,15 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-23",
   "hood": "Westwood",
-  "id": "rescue-22898798",
+  "id": "rescue-22939575",
   "kind": "rescue",
   "lat": 41.0092,
   "lon": -74.0041,
   "org": "Peace 4 Paws Inc.",
   "petName": "Caesar",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898798/104103390.jpg?width=100",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939575/104198329.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
@@ -4651,7 +4705,7 @@
    "medium"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
+  "sourceUpdated": "2026-11-22",
   "species": [
    "dog"
   ],
@@ -4687,15 +4741,15 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-23",
   "hood": "Westwood",
-  "id": "rescue-22898799",
+  "id": "rescue-22939576",
   "kind": "rescue",
   "lat": 41.0092,
   "lon": -74.0041,
   "org": "Peace 4 Paws Inc.",
   "petName": "Coquito (Foster or Adopter needed!)",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898799/104103398.jpg?width=100",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939576/104198337.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
@@ -4705,7 +4759,7 @@
    "medium"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
+  "sourceUpdated": "2026-11-22",
   "species": [
    "dog"
   ],
@@ -4740,15 +4794,15 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-13",
+  "firstSeen": "2026-11-23",
   "hood": "Westwood",
-  "id": "rescue-22898800",
+  "id": "rescue-22939577",
   "kind": "rescue",
   "lat": 41.0092,
   "lon": -74.0041,
   "org": "Peace 4 Paws Inc.",
   "petName": "Dewy",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898800/104103402.jpg?width=100",
+  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22939/22939577/104198343.jpg?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
@@ -4758,7 +4812,7 @@
    "medium"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-05",
+  "sourceUpdated": "2026-11-22",
   "species": [
    "dog"
   ],
@@ -4771,59 +4825,6 @@
    "trained"
   ],
   "title": "Dewy",
-  "url": "http://peace4paws.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "NJ",
-  "breed": "Hound / Mixed (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-13",
-  "hood": "Westwood",
-  "id": "rescue-22898801",
-  "kind": "rescue",
-  "lat": 41.0092,
-  "lon": -74.0041,
-  "org": "Peace 4 Paws Inc.",
-  "petName": "Fred",
-  "photo": "https://cdn.rescuegroups.org/5948/pictures/animals/22898/22898801/104134545.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Say hello to Fred, an adorable 8-month-old 36 lb boy who is ready to melt his way right into your heart — and your lap!",
-  "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-10",
-  "species": [
-   "dog"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly"
-  ],
-  "title": "Fred",
   "url": "http://peace4paws.org",
   "when": ""
  }
