@@ -202,60 +202,6 @@
  },
  {
   "activity": [
-   "walk"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Manhattan",
-  "breed": "Pit bull",
-  "commit": "weekly",
-  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
-  "cost": "free",
-  "costNote": "Free",
-  "daypart": [
-   "midday",
-   "evening"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-25",
-  "hood": "2nd Ave and E 112th St, New York",
-  "id": "paws-048bf48110a2",
-  "kind": "neighbor",
-  "lat": 40.7918,
-  "lon": -73.9448,
-  "org": "PAWS NY",
-  "petName": "Blue",
-  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
-  "requires": [
-   "orientation"
-  ],
-  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
-  "size": [
-   "medium",
-   "large"
-  ],
-  "source": "via Points of Light",
-  "sourceUpdated": "2025-09-30",
-  "species": [
-   "dog"
-  ],
-  "src": "paws",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "friendly",
-   "energetic"
-  ],
-  "title": "Blue",
-  "url": "https://engage.pointsoflight.org/opportunities/68-a46ed0f3-2aaf-3dec-db44-048bf48110a2",
-  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
- },
- {
-  "activity": [
    "walk",
    "visit"
   ],
@@ -772,6 +718,60 @@
   "title": "Phoenix",
   "url": "https://engage.pointsoflight.org/opportunities/68-43905ad7-f9d2-ab98-01c4-bc4d33fa8fe2",
   "when": "Mon, Tues, Wed, Thurs, Fri, Sat, Sun: 5:30pm to 7pm"
+ },
+ {
+  "activity": [
+   "walk"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Manhattan",
+  "breed": "Pit bull",
+  "commit": "weekly",
+  "commitNote": "One 30 to 60 minute visit a week; PAWS NY asks for about 6 months",
+  "cost": "free",
+  "costNote": "Free",
+  "daypart": [
+   "midday",
+   "evening"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "2nd Ave and E 112th St, New York",
+  "id": "paws-c0f08093203b",
+  "kind": "neighbor",
+  "lat": 40.7918,
+  "lon": -73.9448,
+  "org": "PAWS NY",
+  "petName": "Blue",
+  "prep": "One-hour virtual orientation, 18+, proof of COVID-19 vaccination. Dates at pawsny.org/volunteer",
+  "requires": [
+   "orientation"
+  ],
+  "says": "Blue is a friendly blue nose pitbull who would love more exercise!",
+  "size": [
+   "medium",
+   "large"
+  ],
+  "source": "via Points of Light",
+  "sourceUpdated": "2025-09-09",
+  "species": [
+   "dog"
+  ],
+  "src": "paws",
+  "startRank": 3,
+  "status": "open",
+  "temper": [
+   "friendly",
+   "energetic"
+  ],
+  "title": "Blue",
+  "url": "https://engage.pointsoflight.org/opportunities/68-a5413c41-af1f-1152-72ff-c0f08093203b",
+  "when": "Monday-Sunday, afternoons and evenings: 12pm to 7pm"
  },
  {
   "activity": [
@@ -3159,57 +3159,6 @@
    "foster"
   ],
   "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-21013967",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Coco",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/21013/21013967/103975301.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Coco, the sweetest lady around!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Coco",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
    "young"
   ],
   "borough": "Bronx",
@@ -3254,159 +3203,6 @@
   "temper": [],
   "title": "KC Sunshine",
   "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21300449",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-21388897",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "A boy called Spiderman",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/21388/21388897/101335170.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Spider Man is the sweetest wild child who loves to play and roam.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-20",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "A boy called Spiderman",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-21520350",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "A girl called Munie",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/21520/21520350/101335382.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Munie is an adorable chonk with major RBF.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-13",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "A girl called Munie",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-21566100",
-  "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Bubbles",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/21566/21566100/104076525.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Bubbles is sweet, gentle young male who is very shy and would be best in a home with someone who has a very outgoing cat or has the time and patience to do…",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-11-01",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Bubbles",
-  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
  {
@@ -3522,111 +3318,6 @@
   "age": [
    "young"
   ],
-  "borough": "Bronx",
-  "breed": "Domestic Short Hair (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-25",
-  "hood": "Bronx",
-  "id": "rescue-21731430",
-  "kind": "rescue",
-  "lat": 40.8729,
-  "lon": -73.8278,
-  "org": "New York City Cat Coalition",
-  "petName": "Bailey",
-  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21731/21731430/101454526.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Bailey!",
-  "size": [
-   "medium"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-08-12",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [
-   "calm",
-   "friendly"
-  ],
-  "title": "Bailey",
-  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21731430",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-21866446",
-  "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Avery",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/21866/21866446/103900948.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Avery is playful, curious, loves cuddling in the morning and evening before sleeping, enjoys a window and talks to flies.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-27",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Avery",
-  "url": "http://www.brooklynanimalaction.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
   "borough": "NJ",
   "breed": "Poodle (Standard) / Pit Bull Terrier / Mixed (short coat)",
   "commit": "flexible",
@@ -3672,108 +3363,6 @@
   ],
   "title": "Chloe",
   "url": "http://bfdaaa.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-21893089",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Lilly of the Valley",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/21893/21893089/101826274.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Lilly of the Valley's story highlights the many reasons why cats should stay indoors.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2025-12-22",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Lilly of the Valley",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-21910022",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Josie & Luna",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/21910/21910022/102995041.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Josie & Luna (The Twins!) are a bonded pair of kittens looking for their forever home together.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-04-17",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Josie & Luna",
-  "url": "www.catcafebk.com",
   "when": ""
  },
  {
@@ -3837,160 +3426,7 @@
   "age": [
    "young"
   ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-22222140",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Tyrian",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22222/22222140/102606105.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Tyrian, a grey tabby and white boy, is the happiest snugglebug in the world.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-03-27",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Tyrian",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-22310088",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Maelle & Lune",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22310/22310088/102780527.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Maelle (tuxedo, F) and Lune (tabby, F) are two beautiful sisters, and they love each other to the moon and back!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-06-16",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Maelle & Lune",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-22320734",
-  "kind": "rescue",
-  "lat": 40.6451,
-  "lon": -73.945,
-  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
-  "petName": "Delcie",
-  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22320/22320734/103767265.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Delcie is a chunky and spunky lady whose journey to lap cat status is 95% complete!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-28",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Delcie",
-  "url": "www.catcafebk.com",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "senior"
-  ],
-  "borough": "Brooklyn",
+  "borough": "Bronx",
   "breed": "Domestic Short Hair (short coat)",
   "commit": "flexible",
   "commitNote": "Foster until adopted, or as agreed with the rescue",
@@ -4004,25 +3440,25 @@
    "weekday",
    "weekend"
   ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-22352296",
+  "firstSeen": "2026-11-27",
+  "hood": "Bronx",
+  "id": "rescue-21982846",
   "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Rumors",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22352/22352296/102880098.jpg?width=100",
+  "lat": 40.8729,
+  "lon": -73.8278,
+  "org": "New York City Cat Coalition",
+  "petName": "MooMoo",
+  "photo": "https://cdn.rescuegroups.org/9151/pictures/animals/21982/21982846/102027784.png?width=100",
   "prep": "Foster application with the rescue",
   "requires": [
    "application"
   ],
-  "says": "Hi, I’m Rumors.",
+  "says": "Meet MooMoo!",
   "size": [
-   "any"
+   "medium"
   ],
   "source": "RescueGroups.org",
-  "sourceUpdated": "2026-05-27",
+  "sourceUpdated": "2026-08-12",
   "species": [
    "cat"
   ],
@@ -4030,161 +3466,8 @@
   "startRank": 3,
   "status": "open",
   "temper": [],
-  "title": "Rumors",
-  "url": "http://www.brooklynanimalaction.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-22440285",
-  "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Marquis and Majesty",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22440/22440285/103818820.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Marquis (black with some white) is a sweet, curious, and playful little guy.",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-09-13",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Marquis and Majesty",
-  "url": "http://www.brooklynanimalaction.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "adult"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Medium Hair (medium coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-22440289",
-  "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Rain",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22440/22440289/103552315.jpg?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Rain is simply delightful!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-10-13",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Rain",
-  "url": "http://www.brooklynanimalaction.org",
-  "when": ""
- },
- {
-  "activity": [
-   "foster"
-  ],
-  "age": [
-   "young"
-  ],
-  "borough": "Brooklyn",
-  "breed": "Domestic Short Hair (short coat)",
-  "commit": "flexible",
-  "commitNote": "Foster until adopted, or as agreed with the rescue",
-  "cost": "free",
-  "costNote": "Free; rescues usually cover vet care",
-  "cta": "See this pet",
-  "daypart": [
-   "any"
-  ],
-  "days": [
-   "weekday",
-   "weekend"
-  ],
-  "firstSeen": "2026-11-26",
-  "hood": "Brooklyn",
-  "id": "rescue-22455510",
-  "kind": "rescue",
-  "lat": 40.6011,
-  "lon": -73.9475,
-  "org": "Brooklyn Animal Action",
-  "petName": "Roger",
-  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22455/22455510/103111249.png?width=100",
-  "prep": "Foster application with the rescue",
-  "requires": [
-   "application"
-  ],
-  "says": "Meet Roger!",
-  "size": [
-   "any"
-  ],
-  "source": "RescueGroups.org",
-  "sourceUpdated": "2026-08-17",
-  "species": [
-   "cat"
-  ],
-  "src": "rescue",
-  "startRank": 3,
-  "status": "open",
-  "temper": [],
-  "title": "Roger",
-  "url": "http://www.brooklynanimalaction.org",
+  "title": "MooMoo",
+  "url": "https://nyccc.rescuegroups.org/animals/detail?AnimalID=21982846",
   "when": ""
  },
  {
@@ -4344,6 +3627,669 @@
   ],
   "title": "Millie",
   "url": "http://bfdaaa.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Siamese (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22682392",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Leo",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22682/22682392/103609681.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Leo!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-10",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Leo",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22800475",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Sunrise!",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22800/22800475/103878741.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Sunrise is a sweet, handsome gentleman with mesmerizing eyes you'll get lost in.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-16",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Sunrise!",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22843141",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Banjo",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22843/22843141/103971642.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Banjo!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-10-11",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Banjo",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22844547",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Aldric",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22844/22844547/104175775.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Aldric!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-18",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Aldric",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22907938",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Bryson",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22907/22907938/104124006.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Say hello to Bryson!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-10",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Bryson",
+  "url": "http://www.brooklynanimalaction.org",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22921296",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Electric Ernie & Horace",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22921/22921296/104156291.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Ernie and Horace are maybe the sweetest cats to exist?",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-14",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Electric Ernie & Horace",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22921300",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Layne",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22921/22921300/104156297.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "A curious climber, one-year old Layne likes to explore uncharted territory in an apartment.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-14",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Layne",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22921304",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Winnifred",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22921/22921304/104156315.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Winnie is a quiet, gentle angel with moderate energy and good manners.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-14",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Winnifred",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Medium Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22925085",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Roger",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22925/22925085/104165850.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "A big cuddler and one of the sweetest cats you could ask for, Roger is a one-year-old tuxedo with soft fur and big eyes that say “pet me, please.” Roger…",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-16",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Roger",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22925087",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Marty",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22925/22925087/104165929.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Marty is an energetic lovebug, who loves playtime and a warm snuggle.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-16",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Marty",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "adult"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22925092",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Leandro",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22925/22925092/104165936.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Leandro!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-16",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Leandro",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22925095",
+  "kind": "rescue",
+  "lat": 40.6451,
+  "lon": -73.945,
+  "org": "Brooklyn Bridge Animal Welfare Coalition, Inc.",
+  "petName": "Orlando Bloom & Chazz",
+  "photo": "https://cdn.rescuegroups.org/2420/pictures/animals/22925/22925095/104165952.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Orlando Bloom is a black cat with white spots on his nose and chest as well as white paws.",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-16",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Orlando Bloom & Chazz",
+  "url": "www.catcafebk.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22925768",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Elsa",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22925/22925768/104167225.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Elsa!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-23",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Elsa",
+  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  },
  {
@@ -4826,6 +4772,57 @@
   ],
   "title": "Pickles",
   "url": "http://bfdaaa.com",
+  "when": ""
+ },
+ {
+  "activity": [
+   "foster"
+  ],
+  "age": [
+   "young"
+  ],
+  "borough": "Brooklyn",
+  "breed": "Domestic Short Hair (short coat)",
+  "commit": "flexible",
+  "commitNote": "Foster until adopted, or as agreed with the rescue",
+  "cost": "free",
+  "costNote": "Free; rescues usually cover vet care",
+  "cta": "See this pet",
+  "daypart": [
+   "any"
+  ],
+  "days": [
+   "weekday",
+   "weekend"
+  ],
+  "firstSeen": "2026-11-27",
+  "hood": "Brooklyn",
+  "id": "rescue-22945241",
+  "kind": "rescue",
+  "lat": 40.6011,
+  "lon": -73.9475,
+  "org": "Brooklyn Animal Action",
+  "petName": "Canelo",
+  "photo": "https://cdn.rescuegroups.org/6404/pictures/animals/22945/22945241/104210548.jpg?width=100",
+  "prep": "Foster application with the rescue",
+  "requires": [
+   "application"
+  ],
+  "says": "Meet Canelo!",
+  "size": [
+   "any"
+  ],
+  "source": "RescueGroups.org",
+  "sourceUpdated": "2026-11-24",
+  "species": [
+   "cat"
+  ],
+  "src": "rescue",
+  "startRank": 3,
+  "status": "open",
+  "temper": [],
+  "title": "Canelo",
+  "url": "http://www.brooklynanimalaction.org",
   "when": ""
  }
 ]
